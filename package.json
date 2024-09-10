@@ -1,12 +1,22 @@
 {
   "name": "icon-name",
   "packageManager": "yarn@4.4.1",
+  "type": "module",
   "scripts": {
-    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.mjs\"",
     "build": "tsc"
   },
+  "dependencies": {
+    "@ai-sdk/google-vertex": "^0.0.36",
+    "ai": "^3.3.30",
+    "dotenv": "^16.4.5",
+    "zod": "^3.23.8"
+  },
   "devDependencies": {
+    "@google-cloud/vertexai": "^1.7.0",
     "@types/node": "^22.5.4",
+    "@types/react": "^18.3.5",
+    "openai": "^4.58.2",
     "tsc-watch": "^6.2.0",
     "typescript": "^5.6.2"
   }

@@ -16,3 +16,6 @@ node_modules
 .DS_Store
 assets
 dist
+
+auth
+.env
