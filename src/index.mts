@@ -7,6 +7,16 @@ import { createVertex } from "@ai-sdk/google-vertex";
 
 dotenv.config();
 
+const prompt = `You are an icon namer.
+The following name of the matching icon given as an image might represent the symbol well, but at the same time, it might not.
+Rename the following name based on “what it looks like”, not “what will happen if you click a button with the icon.”
+For example, prefer “magnifying-glass” over “search”. But at the same time, don't be too ambiguous.
+Please use \`kebab-case\` for the name, rather than any other naming convention.
+If one word is enough, leave out the hyphens and feel free to use the word as it is.
+Please do not attach any affixes like “icon” or “ic”, or "fill" or "thin" to the name.
+Please provide only one suggestion. and do not format your answer in any way and do not include any additional information.
+`;
+
 const vertex = createVertex({
   googleAuthOptions: {
     keyFilename: path.resolve(
@@ -17,60 +27,52 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const assetPaths = fs.readdirSync(
-  path.resolve(import.meta.dirname, "../assets")
-);
+const possibleSuffixes = ["_regular", "_thin", "_fill"];
 
-const suffixes = ["_thin", "_fill", "_regular"];
+main();
 
-const iconMap = assetPaths.reduce((acc, assetPath) => {
-  const name = assetPath.replace(".png", "");
-  const suffix = suffixes.find((suffix) => name.endsWith(suffix));
+async function main() {
+  const paths = fs.readdirSync(path.resolve(import.meta.dirname, "../assets"));
+  const iconMap = getIconNames(paths);
 
-  if (!suffix) {
-    acc[name] = { regular: name };
+  const randomNames = Object.keys(iconMap)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 2);
 
-    return acc;
+  try {
+    const json = { prompt };
+
+    for await (const randomName of randomNames) {
+      const previousNames = iconMap[randomName];
+      const newName = await getNewName(previousNames.regular);
+
+      const availableSuffixes = possibleSuffixes.filter(
+        (suffix) => previousNames[suffix.replace("_", "")]
+      );
+
+      const newNames = availableSuffixes.reduce((acc, suffix) => {
+        acc[suffix.replace("_", "")] = newName + suffix;
+
+        return acc;
+      }, {});
+
+      json[randomName] = { before: previousNames, after: newNames };
+    }
+
+    console.log(json);
+  } catch (error) {
+    console.error(error);
   }
+}
 
-  const baseName = name.replace(suffix, "");
-  acc[baseName] = { ...acc[baseName], [suffix.replace("_", "")]: name };
-
-  return acc;
-}, {});
-
-// so iconMap looks like this:
-// {
-//   "icon_name": {
-//     regular: "icon_name_regular",
-//     thin: "icon_name_thin",
-//     fill: "icon_name_fill"
-//   }
-// }
-
-const prompt = `You are an icon namer.
-The following name of the matching icon given as an image might represent the symbol well, but at the same time, it might not.
-Rename the following name based on “what it looks like”, not “what will happen if you click a button with the icon.”
-For example, prefer “magnifying-glass” over “search”. But at the same time, don't be too ambiguous.
-Please use \`kebab-case\` for the name, rather than any other naming convention. If one word is enough, leave out the hyphens and use only one word.
-Please do not attach any affixes like “icon” or “ic”, or "fill" or "thin" to the name.
-Please provide only one suggestion. and do not format your answer in any way and do not include any additional information.
-`;
-
-const names = Object.keys(iconMap);
-
-const count = 10;
-
-const randomNames = names.sort(() => 0.5 - Math.random()).slice(0, count);
-
-for await (const name of names) {
-  const image = fs.readFileSync(
-    path.resolve(
-      import.meta.dirname,
-      "../assets",
-      `${iconMap[name].regular}.png`
-    )
+async function getNewName(regularPath: string) {
+  const imagePath = path.resolve(
+    import.meta.dirname,
+    "../assets",
+    `${regularPath}.png`
   );
+
+  const image = fs.readFileSync(imagePath);
 
   const { text } = await generateText({
     model: vertex("gemini-1.5-pro"),
@@ -79,12 +81,42 @@ for await (const name of names) {
       {
         role: "user",
         content: [
-          { type: "text", text: name },
+          { type: "text", text: regularPath },
           { type: "image", image },
         ],
       },
     ],
   });
 
-  console.log(`previous name: ${name} -> new name: ${text.trim()}`);
+  const newName = text.trim();
+  console.log(
+    `previous name: ${regularPath.split(
+      possibleSuffixes[0]
+    )} -> new name: ${newName}`
+  );
+
+  return newName;
+}
+
+function getIconNames(paths: string[]) {
+  const iconMap = paths.reduce((acc, path) => {
+    const fileName = path.replace(".png", "");
+    const suffix = possibleSuffixes.find((suffix) => fileName.endsWith(suffix));
+    const plainName = suffix ? fileName.replace(suffix, "") : fileName;
+
+    if (!suffix) {
+      acc[plainName] = { regular: fileName };
+
+      return acc;
+    }
+
+    acc[plainName] = { ...acc[plainName], [suffix.replace("_", "")]: fileName };
+
+    return acc;
+  }, {});
+
+  return iconMap as Record<
+    string,
+    { regular: string; thin?: string; fill?: string }
+  >;
 }
