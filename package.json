@@ -1,0 +1,13 @@
+{
+  "name": "icon-name",
+  "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node ./dist/index.js\"",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.6.2"
+  }
+}
