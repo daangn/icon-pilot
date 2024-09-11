@@ -1,9 +1,9 @@
-import * as fs from "node:fs";
-import * as path from "node:path";
 import * as dotenv from "dotenv";
+import * as path from "node:path";
 
-import { generateText } from "ai";
 import { createVertex } from "@ai-sdk/google-vertex";
+import { generateText } from "ai";
+import { getIconDataList } from "./load-icon.mjs";
 
 dotenv.config();
 
@@ -21,102 +21,30 @@ const vertex = createVertex({
   googleAuthOptions: {
     keyFilename: path.resolve(
       import.meta.dirname,
-      "../auth/service_account.json"
+      "../auth/service_account.json",
     ),
   },
   location: "us-central1",
 });
 
-const possibleSuffixes = ["_regular", "_thin", "_fill"];
+const iconDataList = getIconDataList();
 
-main();
-
-async function main() {
-  const paths = fs.readdirSync(path.resolve(import.meta.dirname, "../assets"));
-  const iconMap = getIconNames(paths);
-
-  const randomNames = Object.keys(iconMap)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 2);
-
-  try {
-    const json = { prompt };
-
-    for await (const randomName of randomNames) {
-      const previousNames = iconMap[randomName];
-      const newName = await getNewName(previousNames.regular);
-
-      const availableSuffixes = possibleSuffixes.filter(
-        (suffix) => previousNames[suffix.replace("_", "")]
-      );
-
-      const newNames = availableSuffixes.reduce((acc, suffix) => {
-        acc[suffix.replace("_", "")] = newName + suffix;
-
-        return acc;
-      }, {});
-
-      json[randomName] = { before: previousNames, after: newNames };
-    }
-
-    console.log(json);
-  } catch (error) {
-    console.error(error);
-  }
-}
-
-async function getNewName(regularPath: string) {
-  const imagePath = path.resolve(
-    import.meta.dirname,
-    "../assets",
-    `${regularPath}.png`
-  );
-
-  const image = fs.readFileSync(imagePath);
-
+for (const { name, pngBase64 } of iconDataList) {
+  console.log("Requesting name for:", name);
   const { text } = await generateText({
-    model: vertex("gemini-1.5-pro"),
+    model: vertex("gemini-1.0-pro"),
     messages: [
       { role: "system", content: prompt },
       {
         role: "user",
         content: [
-          { type: "text", text: regularPath },
-          { type: "image", image },
+          { type: "text", text: name },
+          { type: "image", image: pngBase64 },
         ],
       },
     ],
   });
 
-  const newName = text.trim();
-  console.log(
-    `previous name: ${regularPath.split(
-      possibleSuffixes[0]
-    )} -> new name: ${newName}`
-  );
-
-  return newName;
-}
-
-function getIconNames(paths: string[]) {
-  const iconMap = paths.reduce((acc, path) => {
-    const fileName = path.replace(".png", "");
-    const suffix = possibleSuffixes.find((suffix) => fileName.endsWith(suffix));
-    const plainName = suffix ? fileName.replace(suffix, "") : fileName;
-
-    if (!suffix) {
-      acc[plainName] = { regular: fileName };
-
-      return acc;
-    }
-
-    acc[plainName] = { ...acc[plainName], [suffix.replace("_", "")]: fileName };
-
-    return acc;
-  }, {});
-
-  return iconMap as Record<
-    string,
-    { regular: string; thin?: string; fill?: string }
-  >;
+  console.log("Suggested Name:", text);
+  console.log("-----------------------------------");
 }
