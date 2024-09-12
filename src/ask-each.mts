@@ -4,10 +4,10 @@ import * as path from "node:path";
 
 import { createVertex } from "@ai-sdk/google-vertex";
 import { PromisePool } from "@supercharge/promise-pool";
-import { generateObject, generateText } from "ai";
-import { getHash } from "./get-hash.mjs";
-import { getIconDataList } from "./load-icon.mjs";
+import { generateObject } from "ai";
 import { z } from "zod";
+import { getIconDataList } from "./data/load-icon.mjs";
+import { getHash } from "./utils/get-hash.mjs";
 
 dotenv.config();
 
