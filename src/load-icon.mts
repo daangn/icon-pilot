@@ -16,5 +16,8 @@ export function getIconDataList(): IconData[] {
     }[]
   )
     .filter((data) => data.name.endsWith("_regular"))
-    .map(({ name, png }) => ({ name, pngBase64: png["2x"] }));
+    .map(({ name, png }) => ({
+      name: name.split("_").slice(1, -1).join("-"),
+      pngBase64: png["2x"],
+    }));
 }

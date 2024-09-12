@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@ai-sdk/google-vertex": "^0.0.36",
+    "@supercharge/promise-pool": "^3.2.0",
     "ai": "^3.3.30",
     "dotenv": "^16.4.5",
     "zod": "^3.23.8"

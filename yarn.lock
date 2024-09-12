@@ -460,6 +460,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@supercharge/promise-pool@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@supercharge/promise-pool@npm:3.2.0"
+  checksum: 10c0/450e2afb21b41f98184ce23210d394a9d825c7ad7b3d2e23d6181c70c5f651ba7aab6b0e90743f3b47d83f401d829ee8cdf0423f97f000452a65c117e1165bdf
+  languageName: node
+  linkType: hard
+
 "@types/diff-match-patch@npm:^1.0.36":
   version: 1.0.36
   resolution: "@types/diff-match-patch@npm:1.0.36"
@@ -1292,6 +1299,7 @@ __metadata:
   dependencies:
     "@ai-sdk/google-vertex": "npm:^0.0.36"
     "@google-cloud/vertexai": "npm:^1.7.0"
+    "@supercharge/promise-pool": "npm:^3.2.0"
     "@types/node": "npm:^22.5.4"
     "@types/react": "npm:^18.3.5"
     ai: "npm:^3.3.30"

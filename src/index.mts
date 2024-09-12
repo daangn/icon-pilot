@@ -1,21 +1,25 @@
 import * as dotenv from "dotenv";
+import fs from "fs";
 import * as path from "node:path";
 
 import { createVertex } from "@ai-sdk/google-vertex";
-import { generateText } from "ai";
+import { PromisePool } from "@supercharge/promise-pool";
+import { generateObject, generateText } from "ai";
+import { getHash } from "./get-hash.mjs";
 import { getIconDataList } from "./load-icon.mjs";
+import { z } from "zod";
 
 dotenv.config();
 
-const prompt = `You are an icon namer.
-The following name of the matching icon given as an image might represent the symbol well, but at the same time, it might not.
-Rename the following name based on “what it looks like”, not “what will happen if you click a button with the icon.”
+const CONCURRENCY = 1;
+
+const SYSTEM_PROMPT = `You are an icon naming expert.
+Rename the following icon names based on “what it looks like”, not “what will happen if you click a button with the icon.”
 For example, prefer “magnifying-glass” over “search”. But at the same time, don't be too ambiguous.
-Please use \`kebab-case\` for the name, rather than any other naming convention.
 If one word is enough, leave out the hyphens and feel free to use the word as it is.
 Please do not attach any affixes like “icon” or “ic”, or "fill" or "thin" to the name.
-Please provide only one suggestion. and do not format your answer in any way and do not include any additional information.
 `;
+const SEED = 0;
 
 const vertex = createVertex({
   googleAuthOptions: {
@@ -29,22 +33,58 @@ const vertex = createVertex({
 
 const iconDataList = getIconDataList();
 
-for (const { name, pngBase64 } of iconDataList) {
-  console.log("Requesting name for:", name);
-  const { text } = await generateText({
-    model: vertex("gemini-1.0-pro"),
-    messages: [
-      { role: "system", content: prompt },
-      {
-        role: "user",
-        content: [
-          { type: "text", text: name },
-          { type: "image", image: pngBase64 },
-        ],
-      },
-    ],
-  });
+const { errors, results } = await PromisePool.for(iconDataList)
+  .withConcurrency(CONCURRENCY)
+  .useCorrespondingResults()
+  .onTaskStarted((item, pool) => {
+    console.log(`Progress: ${pool.processedPercentage()}%`);
+    console.log(`Active tasks: ${pool.activeTasksCount()}`);
+    console.log(`Finished tasks: ${pool.processedCount()}`);
+  })
+  .process(({ name, pngBase64 }) =>
+    generateObject({
+      seed: SEED,
+      model: vertex("gemini-1.5-pro"),
+      schema: z.object({
+        suggestedName: z.string(),
+      }),
+      messages: [
+        { role: "system", content: SYSTEM_PROMPT },
+        {
+          role: "user",
+          content: [
+            { type: "text", text: name },
+            { type: "image", image: pngBase64 },
+          ],
+        },
+      ],
+    }).then(({ object }) => ({
+      currentName: name,
+      suggestedName: object.suggestedName,
+      image: pngBase64,
+    })),
+  );
 
-  console.log("Suggested Name:", text);
-  console.log("-----------------------------------");
+if (errors.length > 0) {
+  console.error(errors);
+  process.exit(1);
 }
+
+const dataToSave = JSON.stringify(
+  {
+    systemPrompt: SYSTEM_PROMPT,
+    seed: SEED,
+    results,
+  },
+  null,
+  2,
+);
+const objectHash = getHash(JSON.stringify(dataToSave));
+
+if (!fs.existsSync(path.resolve(import.meta.dirname, "../results"))) {
+  fs.mkdirSync(path.resolve(import.meta.dirname, "../results"));
+}
+fs.writeFileSync(
+  path.resolve(import.meta.dirname, `../results/results-${objectHash}.json`),
+  dataToSave,
+);
