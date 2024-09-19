@@ -58,6 +58,7 @@ const { object } = await generateObject({
 const dataToSave = JSON.stringify(
   {
     systemPrompt: SYSTEM_PROMPT,
+    description: "한 번에 요청한 결과",
     seed: SEED,
     results: object.map(({ currentName, suggestedName }) => ({
       currentName,

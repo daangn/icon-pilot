@@ -73,6 +73,7 @@ if (errors.length > 0) {
 const dataToSave = JSON.stringify(
   {
     systemPrompt: SYSTEM_PROMPT,
+    description: "각각 요청한 결과",
     seed: SEED,
     results,
   },

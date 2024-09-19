@@ -11,6 +11,7 @@ interface Result {
 
 interface Collection {
   systemPrompt: string;
+  description?: string;
   seed: number;
   results: Result[];
 }
@@ -59,6 +60,7 @@ for (const filename of files) {
   <h1>Results</h1>
   <p>System Prompt: ${data.systemPrompt}</p>
   <p>Seed: ${data.seed}</p>
+  <p>Description: ${data.description}</p>
   <p>Total Results: ${data.results.length}</p>
   <table>
     <thead>
