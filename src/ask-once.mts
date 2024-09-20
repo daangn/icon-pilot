@@ -3,7 +3,7 @@ import fs from "fs";
 import * as path from "node:path";
 
 import { generateObject, type CoreUserMessage } from "ai";
-import { getIconDataList } from "./data/load-icon.mjs";
+import { getIconDataListFromAssets } from "./data/load-icon.mjs";
 import { z } from "zod";
 import { createVertex } from "@ai-sdk/google-vertex";
 import { getHash } from "./utils/get-hash.mjs";
@@ -32,7 +32,7 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const iconDataList = getIconDataList();
+const iconDataList = getIconDataListFromAssets();
 
 const userMessages: CoreUserMessage[] = iconDataList.map(
   ({ name, pngBase64 }) => ({

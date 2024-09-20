@@ -6,7 +6,7 @@ import { createVertex } from "@ai-sdk/google-vertex";
 import { PromisePool } from "@supercharge/promise-pool";
 import { generateObject } from "ai";
 import { z } from "zod";
-import { getIconDataList } from "./data/load-icon.mjs";
+import { getIconDataListFromJson } from "./data/load-icon.mjs";
 import { getHash } from "./utils/get-hash.mjs";
 
 dotenv.config();
@@ -31,7 +31,7 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const iconDataList = getIconDataList();
+const iconDataList = getIconDataListFromJson();
 
 const { errors, results } = await PromisePool.for(iconDataList)
   .withConcurrency(CONCURRENCY)
