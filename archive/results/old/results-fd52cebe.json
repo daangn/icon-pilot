@@ -1,5 +1,6 @@
 {
   "systemPrompt": "You are an icon namer.\nRename the following name based on “what it looks like”, not “what will happen if you click a button with the icon.”\nFor example, prefer “magnifying-glass” over “search”. But at the same time, don't be too ambiguous.\nPlease use `kebab-case` for the name, rather than any other naming convention.\nIf one word is enough, leave out the hyphens and feel free to use the word as it is.\nPlease do not attach any affixes like “icon” or “ic”, or \"fill\" or \"thin\" to the name.\nPlease provide only one suggestion. and do not format your answer in any way and do not include any additional information.\n",
+  "description": "한 번에 요청한 결과",
   "seed": 0,
   "results": [
     {
