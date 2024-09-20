@@ -58,10 +58,12 @@ for (const filename of files) {
 </head>
 <body>
   <h1>Results</h1>
-  <p>System Prompt: ${data.systemPrompt}</p>
-  <p>Seed: ${data.seed}</p>
-  <p>Description: ${data.description}</p>
-  <p>Total Results: ${data.results.length}</p>
+  <ul>  
+    <li>System Prompt: ${data.systemPrompt}</li>
+    <li>Seed: ${data.seed}</li>
+    <li>Description: ${data.description}</li>
+    <li>Total Results: ${data.results.length}</li>
+  </ul>
   <table>
     <thead>
       <tr>
