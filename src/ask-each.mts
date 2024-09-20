@@ -25,7 +25,7 @@ const vertex = createVertex({
   googleAuthOptions: {
     keyFilename: path.resolve(
       import.meta.dirname,
-      "../auth/service_account.json",
+      "../auth/service_account.json"
     ),
   },
   location: "us-central1",
@@ -62,7 +62,7 @@ const { errors, results } = await PromisePool.for(iconDataList)
       currentName: name,
       suggestedName: object.suggestedName,
       image: pngBase64,
-    })),
+    }))
   );
 
 if (errors.length > 0) {
@@ -73,12 +73,12 @@ if (errors.length > 0) {
 const dataToSave = JSON.stringify(
   {
     systemPrompt: SYSTEM_PROMPT,
-    description: "각각 요청한 결과",
+    description: undefined,
     seed: SEED,
     results,
   },
   null,
-  2,
+  2
 );
 const objectHash = getHash(JSON.stringify(dataToSave));
 
@@ -87,5 +87,5 @@ if (!fs.existsSync(path.resolve(import.meta.dirname, "../results"))) {
 }
 fs.writeFileSync(
   path.resolve(import.meta.dirname, `../results/results-${objectHash}.json`),
-  dataToSave,
+  dataToSave
 );
