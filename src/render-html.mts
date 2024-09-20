@@ -68,6 +68,7 @@ for (const filename of files) {
         <th>Current Name</th>
         <th>Suggested Name</th>
         <th>Image</th>
+        <th>Image base64 string (hidden)</th>
       </tr>
     </thead>
     <tbody>
@@ -78,6 +79,7 @@ for (const filename of files) {
           <td>${currentName}</td>
           <td>${suggestedName}</td>
           <td><img src="data:image/png;base64,${image}" alt="${currentName}"></td>
+          <td style="font-size: 0; width: 0;">${image}</td>
         </tr>
       `,
         )

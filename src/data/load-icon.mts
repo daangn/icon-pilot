@@ -29,7 +29,7 @@ export function getIconDataListFromAssets(): IconData[] {
     .readdirSync(assetsPath)
     .filter((name) => name.endsWith("_regular.png"))
     .map((name) => ({
-      name: name.split(".")[0],
+      name: name.split("_").slice(1, -1).join("-"),
       pngBase64: fs.readFileSync(path.resolve(assetsPath, name), "base64"),
     }));
 }
