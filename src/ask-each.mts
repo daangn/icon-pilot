@@ -6,7 +6,7 @@ import { createVertex } from "@ai-sdk/google-vertex";
 import { PromisePool } from "@supercharge/promise-pool";
 import { generateObject } from "ai";
 import { z } from "zod";
-import { getIconDataListFromJson } from "./data/load-icon.mjs";
+import { getIconDataList } from "./data/load-icon.mjs";
 import { getHash } from "./utils/get-hash.mjs";
 
 dotenv.config();
@@ -31,7 +31,7 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const iconDataList = getIconDataListFromJson();
+const iconDataList = getIconDataList();
 
 const { errors, results } = await PromisePool.for(iconDataList)
   .withConcurrency(CONCURRENCY)
@@ -80,12 +80,17 @@ const dataToSave = JSON.stringify(
   null,
   2
 );
+
+const date = new Date().toISOString().replace(/:/g, "-");
 const objectHash = getHash(JSON.stringify(dataToSave));
 
 if (!fs.existsSync(path.resolve(import.meta.dirname, "../results"))) {
   fs.mkdirSync(path.resolve(import.meta.dirname, "../results"));
 }
 fs.writeFileSync(
-  path.resolve(import.meta.dirname, `../results/results-${objectHash}.json`),
+  path.resolve(
+    import.meta.dirname,
+    `../results/results-${date}-${objectHash}.json`
+  ),
   dataToSave
 );

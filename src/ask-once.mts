@@ -3,7 +3,7 @@ import fs from "fs";
 import * as path from "node:path";
 
 import { generateObject, type CoreUserMessage } from "ai";
-import { getIconDataListFromAssets } from "./data/load-icon.mjs";
+import { getIconDataList } from "./data/load-icon.mjs";
 import { z } from "zod";
 import { createVertex } from "@ai-sdk/google-vertex";
 import { getHash } from "./utils/get-hash.mjs";
@@ -30,7 +30,9 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const iconDataList = getIconDataListFromAssets();
+const iconDataList = getIconDataList();
+
+console.log(iconDataList);
 
 const userMessages: CoreUserMessage[] = iconDataList.map(
   ({ name, pngBase64 }) => ({
@@ -67,12 +69,17 @@ const dataToSave = JSON.stringify(
   null,
   2
 );
+
+const date = new Date().toISOString().replace(/:/g, "-");
 const objectHash = getHash(JSON.stringify(dataToSave));
 
 if (!fs.existsSync(path.resolve(import.meta.dirname, "../results"))) {
   fs.mkdirSync(path.resolve(import.meta.dirname, "../results"));
 }
 fs.writeFileSync(
-  path.resolve(import.meta.dirname, `../results/results-${objectHash}.json`),
+  path.resolve(
+    import.meta.dirname,
+    `../results/results-${date}-${objectHash}.json`
+  ),
   dataToSave
 );

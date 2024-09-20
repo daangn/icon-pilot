@@ -3,7 +3,7 @@ import fs from "fs";
 import * as path from "node:path";
 
 import { generateObject, type CoreUserMessage } from "ai";
-import { getIconDataListFromAssets } from "./data/load-icon.mjs";
+import { getIconDataList } from "./data/load-icon.mjs";
 import { z } from "zod";
 import { createVertex } from "@ai-sdk/google-vertex";
 import { getHash } from "./utils/get-hash.mjs";
@@ -17,6 +17,7 @@ If there are multiple icons that look similar or can be grouped together, please
 Please use \`kebab-case\` for the name, rather than any other naming convention.
 If one word is enough, leave out the hyphens and feel free to use the word as it is.
 Also, there can't be any duplicate names. If you are to use a name that you have already used, it means that you named the icon not as descriptive as you could. In this case, please try to come up with a new name that fits the icon better. Please do not attach any suffixes like "-alt" or "-2" to the name.
+Finally, please provide the reason why you named the icon as you did.
 `;
 const SEED = 0;
 
@@ -30,13 +31,18 @@ const vertex = createVertex({
   location: "us-central1",
 });
 
-const iconDataList = getIconDataListFromAssets();
+const iconDataList = getIconDataList();
+// .sort(() => Math.random() - 0.5)
+// .slice(0, 10);
 
 const userMessages: CoreUserMessage[] = iconDataList.map(
-  ({ name, pngBase64 }) => ({
+  ({ pngBase64 }, index) => ({
     role: "user",
     content: [
-      // { type: "text", text: name },
+      {
+        type: "text",
+        text: `Icon index ${index}`,
+      },
       { type: "image", image: pngBase64 },
     ],
   })
@@ -47,32 +53,39 @@ const { object } = await generateObject({
   model: vertex("gemini-1.5-pro"),
   output: "array",
   schema: z.object({
-    currentName: z.string(),
+    index: z.number(),
     suggestedName: z.string(),
   }),
   messages: [{ role: "system", content: SYSTEM_PROMPT }, ...userMessages],
 });
+
+// console.log(object)
 
 const dataToSave = JSON.stringify(
   {
     systemPrompt: SYSTEM_PROMPT,
     description: "한 번에 요청한 결과 (이전 이름 없음)",
     seed: SEED,
-    results: object.map(({ currentName, suggestedName }) => ({
-      currentName,
+    results: object.map(({ index, suggestedName }) => ({
+      currentName: iconDataList[index].name,
       suggestedName,
-      image: iconDataList.find(({ name }) => name === currentName).pngBase64,
+      image: iconDataList[index].pngBase64,
     })),
   },
   null,
   2
 );
+
+const date = new Date().toISOString().replace(/:/g, "-");
 const objectHash = getHash(JSON.stringify(dataToSave));
 
 if (!fs.existsSync(path.resolve(import.meta.dirname, "../results"))) {
   fs.mkdirSync(path.resolve(import.meta.dirname, "../results"));
 }
 fs.writeFileSync(
-  path.resolve(import.meta.dirname, `../results/results-${objectHash}.json`),
+  path.resolve(
+    import.meta.dirname,
+    `../results/results-${date}-${objectHash}.json`
+  ),
   dataToSave
 );
