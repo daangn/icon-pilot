@@ -18,7 +18,7 @@ Please use \`kebab-case\` for the name, rather than any other naming convention.
 If one word is enough, leave out the hyphens and feel free to use the word as it is.
 Also, there can't be any duplicate names. If you are to use a name that you have already used, it means that you named the icon not as descriptive as you could. In this case, please try to come up with a new name that fits the icon better. Please do not attach any suffixes like "-alt" or "-2" to the name.
 `;
-const SEED = 0;
+const SEED = Math.floor(Math.random() * 100000);
 
 const vertex = createVertex({
   googleAuthOptions: {
