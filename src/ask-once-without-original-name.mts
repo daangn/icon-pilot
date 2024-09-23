@@ -32,8 +32,6 @@ const vertex = createVertex({
 });
 
 const iconDataList = getIconDataList();
-// .sort(() => Math.random() - 0.5)
-// .slice(0, 10);
 
 const userMessages: CoreUserMessage[] = iconDataList.map(
   ({ pngBase64 }, index) => ({
