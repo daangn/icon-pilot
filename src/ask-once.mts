@@ -32,8 +32,6 @@ const vertex = createVertex({
 
 const iconDataList = getIconDataList();
 
-console.log(iconDataList);
-
 const userMessages: CoreUserMessage[] = iconDataList.map(
   ({ name, pngBase64 }) => ({
     role: "user",

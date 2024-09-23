@@ -57,8 +57,6 @@ const { object } = await generateObject({
   messages: [{ role: "system", content: SYSTEM_PROMPT }, ...userMessages],
 });
 
-// console.log(object)
-
 const dataToSave = JSON.stringify(
   {
     systemPrompt: SYSTEM_PROMPT,
