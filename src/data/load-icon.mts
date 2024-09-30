@@ -21,3 +21,20 @@ export function getIconDataList(): IconData[] {
       pngBase64: png["2x"],
     }));
 }
+
+export function getReferences(): IconData[] {
+  const folder = path.resolve(
+    import.meta.dirname,
+    "../../references/sf-symbols"
+  );
+
+  const iconData = fs
+    .readdirSync(folder)
+    .filter((file) => file.endsWith(".png"))
+    .map((file) => ({
+      name: file.replace(".png", "").replaceAll(".", "_"),
+      pngBase64: fs.readFileSync(path.resolve(folder, file), "base64"),
+    }));
+
+  return iconData;
+}
