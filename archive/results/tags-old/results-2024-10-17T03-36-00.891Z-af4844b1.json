@@ -1,0 +1,1439 @@
+{
+  "systemPrompt": "You are an icon tagging assistant. Based on the icon image and name, please provide tags that you think are appropriate. For example, if the icon is a car, you can provide tags like \"vehicle\", \"transportation\", \"automobile\", \"ride\", etc.",
+  "description": "태그 추천",
+  "seed": 51758,
+  "results": {
+    "backward": [
+      "left",
+      "previous",
+      "back",
+      "reverse",
+      "rewind"
+    ],
+    "forward": [
+      "right",
+      "next",
+      "advance",
+      "fast forward"
+    ],
+    "arrow-upward": [
+      "up",
+      "north",
+      "increase",
+      "ascend"
+    ],
+    "arrow-downward": [
+      "down",
+      "south",
+      "decrease",
+      "descend"
+    ],
+    "arrow": [
+      "direction",
+      "pointer",
+      "right",
+      "diagonal"
+    ],
+    "download": [
+      "save",
+      "transfer",
+      "get",
+      "arrow"
+    ],
+    "coupon-download-done": [
+      "coupon",
+      "download",
+      "complete",
+      "check",
+      "success"
+    ],
+    "expand": [
+      "enlarge",
+      "fullscreen",
+      "maximize",
+      "arrows"
+    ],
+    "convert": [
+      "change",
+      "transform",
+      "exchange",
+      "arrows"
+    ],
+    "sort": [
+      "order",
+      "arrange",
+      "filter",
+      "arrows"
+    ],
+    "chevron-left": [
+      "left",
+      "back",
+      "previous",
+      "arrow"
+    ],
+    "chevron-right": [
+      "right",
+      "forward",
+      "next",
+      "arrow"
+    ],
+    "expand-more": [
+      "more",
+      "expand",
+      "down",
+      "arrow"
+    ],
+    "expand-less": [
+      "less",
+      "collapse",
+      "up",
+      "arrow"
+    ],
+    "undo": [
+      "revert",
+      "cancel",
+      "back",
+      "arrow"
+    ],
+    "redo": [
+      "repeat",
+      "forward",
+      "arrow"
+    ],
+    "retry": [
+      "refresh",
+      "reload",
+      "again",
+      "loop",
+      "arrow"
+    ],
+    "photo-edit-rotate": [
+      "rotate",
+      "image",
+      "photo",
+      "edit",
+      "arrows"
+    ],
+    "arrow-drop-down": [
+      "down",
+      "arrow",
+      "dropdown",
+      "menu"
+    ],
+    "arrow-drop-up": [
+      "up",
+      "arrow",
+      "dropup",
+      "menu"
+    ],
+    "more-horiz": [
+      "more",
+      "horizontal",
+      "dots"
+    ],
+    "more-vert": [
+      "more",
+      "vertical",
+      "dots"
+    ],
+    "signin": [
+      "login",
+      "enter",
+      "access",
+      "arrow"
+    ],
+    "signout": [
+      "logout",
+      "exit",
+      "leave",
+      "arrow"
+    ],
+    "handle": [
+      "menu",
+      "hamburger",
+      "navigation",
+      "lines"
+    ],
+    "reply-re": [
+      "reply",
+      "answer",
+      "respond",
+      "corner"
+    ],
+    "delete-keyboard": [
+      "keyboard",
+      "delete",
+      "remove",
+      "close",
+      "x"
+    ],
+    "keyboard-hiding": [
+      "keyboard",
+      "hide",
+      "close"
+    ],
+    "music": [
+      "audio",
+      "sound",
+      "song",
+      "note"
+    ],
+    "play": [
+      "start",
+      "audio",
+      "video",
+      "triangle"
+    ],
+    "pause": [
+      "stop",
+      "audio",
+      "video",
+      "bars"
+    ],
+    "mic": [
+      "microphone",
+      "audio",
+      "record",
+      "voice"
+    ],
+    "mic-off": [
+      "microphone",
+      "mute",
+      "audio",
+      "silent"
+    ],
+    "volume-on": [
+      "sound",
+      "audio",
+      "speaker",
+      "loud"
+    ],
+    "volume-off": [
+      "mute",
+      "sound",
+      "audio",
+      "silent"
+    ],
+    "grobal": [
+      "global",
+      "world",
+      "earth",
+      "international",
+      "sphere"
+    ],
+    "earth": [
+      "world",
+      "globe",
+      "planet",
+      "environment"
+    ],
+    "location": [
+      "map",
+      "place",
+      "pin",
+      "gps"
+    ],
+    "map": [
+      "navigation",
+      "location",
+      "route",
+      "gps"
+    ],
+    "gps": [
+      "navigation",
+      "location",
+      "satellite",
+      "tracking"
+    ],
+    "gps-enable": [
+      "gps",
+      "enable",
+      "activate",
+      "location",
+      "question"
+    ],
+    "car-navigation": [
+      "navigation",
+      "car",
+      "gps",
+      "map",
+      "direction"
+    ],
+    "camera": [
+      "photo",
+      "video",
+      "record",
+      "capture"
+    ],
+    "video": [
+      "movie",
+      "film",
+      "record",
+      "play"
+    ],
+    "photo": [
+      "image",
+      "picture",
+      "gallery",
+      "landscape"
+    ],
+    "photo-several": [
+      "photos",
+      "images",
+      "gallery",
+      "multiple"
+    ],
+    "photo-edit-draw": [
+      "photo",
+      "edit",
+      "draw",
+      "scribble",
+      "pen"
+    ],
+    "photo-edit": [
+      "photo",
+      "edit",
+      "adjust",
+      "settings"
+    ],
+    "photo-edit-crop": [
+      "photo",
+      "edit",
+      "crop",
+      "resize",
+      "frame"
+    ],
+    "file": [
+      "document",
+      "attachment",
+      "paperclip"
+    ],
+    "video-edit": [
+      "video",
+      "edit",
+      "trim",
+      "cut"
+    ],
+    "flash": [
+      "lightning",
+      "electricity",
+      "camera",
+      "light"
+    ],
+    "flash-off": [
+      "flash",
+      "off",
+      "disabled",
+      "camera"
+    ],
+    "timer": [
+      "time",
+      "clock",
+      "countdown",
+      "stopwatch"
+    ],
+    "timer-3": [
+      "timer",
+      "3 seconds",
+      "countdown",
+      "short"
+    ],
+    "timer-10": [
+      "timer",
+      "10 seconds",
+      "countdown",
+      "long"
+    ],
+    "write": [
+      "pen",
+      "pencil",
+      "edit",
+      "create",
+      "compose"
+    ],
+    "edit": [
+      "pencil",
+      "modify",
+      "change",
+      "update"
+    ],
+    "text-align-left": [
+      "text",
+      "align",
+      "left",
+      "justify"
+    ],
+    "text-align-center": [
+      "text",
+      "align",
+      "center",
+      "justify"
+    ],
+    "text-align-right": [
+      "text",
+      "align",
+      "right",
+      "justify"
+    ],
+    "text-bg": [
+      "text",
+      "background",
+      "highlight",
+      "letter"
+    ],
+    "text-1": [
+      "text",
+      "font",
+      "style",
+      "letters"
+    ],
+    "text": [
+      "font",
+      "letter",
+      "typography",
+      "writing"
+    ],
+    "percent": [
+      "percentage",
+      "discount",
+      "ratio",
+      "symbol"
+    ],
+    "hashtag": [
+      "social media",
+      "trend",
+      "topic",
+      "symbol"
+    ],
+    "talkingup": [
+      "quote",
+      "speech",
+      "conversation",
+      "talking"
+    ],
+    "talkingdown": [
+      "quote",
+      "speech",
+      "conversation",
+      "talking"
+    ],
+    "translate": [
+      "language",
+      "interpretation",
+      "communication",
+      "foreign"
+    ],
+    "newtopic": [
+      "new",
+      "topic",
+      "subject",
+      "post",
+      "letter"
+    ],
+    "home": [
+      "house",
+      "residence",
+      "main",
+      "start"
+    ],
+    "my-home": [
+      "home",
+      "house",
+      "residence",
+      "love",
+      "heart"
+    ],
+    "heart": [
+      "love",
+      "like",
+      "favorite",
+      "passion"
+    ],
+    "interest-list": [
+      "interest",
+      "favorite",
+      "star",
+      "list"
+    ],
+    "bookmark": [
+      "save",
+      "favorite",
+      "mark",
+      "ribbon"
+    ],
+    "pushpin": [
+      "pin",
+      "location",
+      "mark",
+      "attach"
+    ],
+    "thumb-up": [
+      "like",
+      "approve",
+      "positive",
+      "good",
+      "hand"
+    ],
+    "thumb-down": [
+      "dislike",
+      "disapprove",
+      "negative",
+      "bad",
+      "hand"
+    ],
+    "view-count": [
+      "view",
+      "eye",
+      "see",
+      "count",
+      "visibility"
+    ],
+    "view-count-off": [
+      "view",
+      "off",
+      "hidden",
+      "invisible",
+      "eye"
+    ],
+    "emoticon": [
+      "smiley",
+      "happy",
+      "emotion",
+      "face"
+    ],
+    "emoticon-bad": [
+      "sad",
+      "unhappy",
+      "emotion",
+      "face"
+    ],
+    "sticker": [
+      "emoji",
+      "emoticon",
+      "label",
+      "decoration"
+    ],
+    "contents": [
+      "grid",
+      "layout",
+      "squares",
+      "heart"
+    ],
+    "search": [
+      "find",
+      "explore",
+      "discover",
+      "magnifying glass"
+    ],
+    "setting": [
+      "gear",
+      "options",
+      "configuration",
+      "preferences"
+    ],
+    "filter02": [
+      "filter",
+      "sort",
+      "refine",
+      "sliders"
+    ],
+    "ios-share": [
+      "share",
+      "ios",
+      "upload",
+      "arrow"
+    ],
+    "android-share": [
+      "share",
+      "android",
+      "connect",
+      "dots"
+    ],
+    "trash": [
+      "delete",
+      "remove",
+      "garbage",
+      "bin"
+    ],
+    "chatting-send": [
+      "send",
+      "message",
+      "chat",
+      "paper plane"
+    ],
+    "click": [
+      "hand",
+      "pointer",
+      "select",
+      "tap"
+    ],
+    "copy": [
+      "duplicate",
+      "clone",
+      "reproduce",
+      "squares"
+    ],
+    "scanner": [
+      "scan",
+      "barcode",
+      "qr code",
+      "reader"
+    ],
+    "chatting": [
+      "chat",
+      "message",
+      "conversation",
+      "speech bubble"
+    ],
+    "chat-bubble-check": [
+      "chat",
+      "message",
+      "check",
+      "success"
+    ],
+    "reply": [
+      "answer",
+      "respond",
+      "comment",
+      "speech bubble"
+    ],
+    "mention": [
+      "at symbol",
+      "tag",
+      "notify",
+      "user"
+    ],
+    "notification": [
+      "alert",
+      "reminder",
+      "bell",
+      "sound"
+    ],
+    "notification-off": [
+      "notification",
+      "off",
+      "silent",
+      "bell"
+    ],
+    "call": [
+      "phone",
+      "telephone",
+      "contact",
+      "communication"
+    ],
+    "call-declined": [
+      "call",
+      "reject",
+      "decline",
+      "phone",
+      "x"
+    ],
+    "report": [
+      "flag",
+      "alert",
+      "notify",
+      "warning"
+    ],
+    "lock": [
+      "security",
+      "privacy",
+      "protect",
+      "closed"
+    ],
+    "unlock": [
+      "open",
+      "access",
+      "free",
+      "security"
+    ],
+    "my": [
+      "user",
+      "profile",
+      "person",
+      "account"
+    ],
+    "user-group": [
+      "group",
+      "team",
+      "people",
+      "users"
+    ],
+    "my-profile": [
+      "profile",
+      "user",
+      "account",
+      "person"
+    ],
+    "invite-friend": [
+      "invite",
+      "friend",
+      "add",
+      "user",
+      "plus"
+    ],
+    "profile-badge": [
+      "badge",
+      "verified",
+      "check",
+      "profile",
+      "shield"
+    ],
+    "sun": [
+      "weather",
+      "sunny",
+      "day",
+      "brightness"
+    ],
+    "moon": [
+      "night",
+      "dark",
+      "sleep",
+      "crescent"
+    ],
+    "add": [
+      "plus",
+      "increase",
+      "create",
+      "new"
+    ],
+    "subtraction": [
+      "minus",
+      "decrease",
+      "remove",
+      "delete"
+    ],
+    "close": [
+      "exit",
+      "cancel",
+      "delete",
+      "x"
+    ],
+    "check": [
+      "confirm",
+      "approve",
+      "done",
+      "tick"
+    ],
+    "remove-circle": [
+      "remove",
+      "delete",
+      "subtract",
+      "circle",
+      "x"
+    ],
+    "add-circle": [
+      "add",
+      "plus",
+      "create",
+      "circle"
+    ],
+    "subtract-circle": [
+      "subtract",
+      "minus",
+      "remove",
+      "circle"
+    ],
+    "sell": [
+      "plus",
+      "add",
+      "create",
+      "new",
+      "square"
+    ],
+    "prohibition": [
+      "forbidden",
+      "restricted",
+      "banned",
+      "circle",
+      "slash"
+    ],
+    "info": [
+      "information",
+      "details",
+      "help",
+      "circle",
+      "i"
+    ],
+    "warning": [
+      "caution",
+      "alert",
+      "attention",
+      "circle",
+      "exclamation mark"
+    ],
+    "help": [
+      "question",
+      "support",
+      "assistance",
+      "circle",
+      "question mark"
+    ],
+    "question-check": [
+      "question",
+      "check",
+      "confirm",
+      "square",
+      "question mark"
+    ],
+    "check-flower": [
+      "check",
+      "confirm",
+      "approve",
+      "flower",
+      "tick"
+    ],
+    "walk": [
+      "person",
+      "walking",
+      "move",
+      "🚶"
+    ],
+    "run": [
+      "person",
+      "running",
+      "sprint",
+      "🏃"
+    ],
+    "wheelchair": [
+      "accessibility",
+      "disabled",
+      "access",
+      "♿"
+    ],
+    "accessibility": [
+      "accessible",
+      "inclusive",
+      "universal",
+      "person"
+    ],
+    "hello": [
+      "greeting",
+      "wave",
+      "hi",
+      "hand"
+    ],
+    "lab": [
+      "science",
+      "chemistry",
+      "experiment",
+      "flask"
+    ],
+    "light": [
+      "idea",
+      "bulb",
+      "bright",
+      "knowledge"
+    ],
+    "challenge": [
+      "goal",
+      "target",
+      "achievement",
+      "flag"
+    ],
+    "trophy": [
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "laptop": [
+      "computer",
+      "device",
+      "technology",
+      "work"
+    ],
+    "mobile": [
+      "phone",
+      "smartphone",
+      "device",
+      "communication"
+    ],
+    "direction": [
+      "arrow",
+      "navigation",
+      "route",
+      "turn"
+    ],
+    "car-around-view": [
+      "car",
+      "360 view",
+      "surround",
+      "arrow"
+    ],
+    "car-cruise-control": [
+      "car",
+      "cruise control",
+      "speed",
+      "gauge"
+    ],
+    "speed-1x": [
+      "speed",
+      "normal",
+      "1x",
+      "gauge"
+    ],
+    "speed-2x": [
+      "speed",
+      "double",
+      "2x",
+      "gauge"
+    ],
+    "speed-3x": [
+      "speed",
+      "triple",
+      "3x",
+      "gauge"
+    ],
+    "car-ldws": [
+      "car",
+      "lane departure warning",
+      "safety",
+      "road"
+    ],
+    "car-epb": [
+      "car",
+      "electronic parking brake",
+      "parking",
+      "P"
+    ],
+    "car-power-trunk": [
+      "car",
+      "trunk",
+      "automatic",
+      "open"
+    ],
+    "car-smart-key": [
+      "car",
+      "key",
+      "remote",
+      "start"
+    ],
+    "car-heated-steering-wheel": [
+      "car",
+      "steering wheel",
+      "heated",
+      "warm"
+    ],
+    "aeb": [
+      "car",
+      "automatic emergency braking",
+      "safety",
+      "brake"
+    ],
+    "car-blind-spot": [
+      "car",
+      "blind spot detection",
+      "safety",
+      "sensor"
+    ],
+    "car-rear-camera": [
+      "car",
+      "rear view camera",
+      "backup",
+      "parking"
+    ],
+    "car-rear-sensor": [
+      "car",
+      "rear sensor",
+      "parking",
+      "safety"
+    ],
+    "car-leather-seat": [
+      "car",
+      "seat",
+      "leather",
+      "comfort"
+    ],
+    "car-ventilation-seat": [
+      "car",
+      "seat",
+      "ventilation",
+      "air",
+      "cool"
+    ],
+    "car-heated-seat": [
+      "car",
+      "seat",
+      "heated",
+      "warm"
+    ],
+    "menu": [
+      "list",
+      "options",
+      "navigation",
+      "hamburger"
+    ],
+    "list-select": [
+      "list",
+      "select",
+      "check",
+      "tick"
+    ],
+    "list-check": [
+      "list",
+      "check",
+      "multiple",
+      "tick"
+    ],
+    "list": [
+      "items",
+      "bullet points",
+      "checklist",
+      "order"
+    ],
+    "interest": [
+      "favorite",
+      "star",
+      "list",
+      "bookmark"
+    ],
+    "list-thumbnail": [
+      "list",
+      "thumbnail",
+      "image",
+      "preview"
+    ],
+    "list-card": [
+      "list",
+      "card",
+      "information",
+      "details"
+    ],
+    "vote": [
+      "election",
+      "poll",
+      "choice",
+      "check"
+    ],
+    "gender": [
+      "male",
+      "female",
+      "symbols",
+      "sex"
+    ],
+    "toolbox": [
+      "tools",
+      "toolkit",
+      "repair",
+      "maintenance"
+    ],
+    "categroy-popularity": [
+      "category",
+      "popular",
+      "trending",
+      "fire"
+    ],
+    "categroy-question": [
+      "category",
+      "question",
+      "faq",
+      "help",
+      "Q"
+    ],
+    "leaf": [
+      "nature",
+      "environment",
+      "plant",
+      "green"
+    ],
+    "groupchat-king": [
+      "group chat",
+      "leader",
+      "admin",
+      "crown"
+    ],
+    "ai": [
+      "artificial intelligence",
+      "technology",
+      "stars",
+      "innovation"
+    ],
+    "product": [
+      "shopping",
+      "item",
+      "bag",
+      "purchase"
+    ],
+    "product-several": [
+      "products",
+      "shopping",
+      "items",
+      "bags"
+    ],
+    "keyword": [
+      "tag",
+      "label",
+      "search",
+      "term"
+    ],
+    "cart": [
+      "shopping",
+      "purchase",
+      "checkout",
+      "trolley"
+    ],
+    "bill": [
+      "invoice",
+      "receipt",
+      "payment",
+      "document"
+    ],
+    "payment": [
+      "credit card",
+      "money",
+      "transaction",
+      "purchase"
+    ],
+    "refund": [
+      "return",
+      "money back",
+      "exchange",
+      "arrow"
+    ],
+    "money-send": [
+      "transfer",
+      "send",
+      "money",
+      "arrow"
+    ],
+    "price-won": [
+      "price",
+      "won",
+      "currency",
+      "korean"
+    ],
+    "money-won": [
+      "money",
+      "won",
+      "currency",
+      "korean"
+    ],
+    "confirmation": [
+      "verified",
+      "approved",
+      "check",
+      "shield"
+    ],
+    "confirmation-profile": [
+      "confirmation",
+      "profile",
+      "verified",
+      "user",
+      "shield"
+    ],
+    "confirmation-pay": [
+      "confirmation",
+      "payment",
+      "verified",
+      "won",
+      "shield"
+    ],
+    "market": [
+      "store",
+      "shop",
+      "marketplace",
+      "building"
+    ],
+    "market-write": [
+      "market",
+      "write",
+      "post",
+      "edit"
+    ],
+    "market-check": [
+      "market",
+      "check",
+      "confirm",
+      "approve"
+    ],
+    "clock": [
+      "time",
+      "hour",
+      "minute",
+      "watch"
+    ],
+    "calendar": [
+      "date",
+      "schedule",
+      "appointment",
+      "event"
+    ],
+    "reservation": [
+      "booking",
+      "appointment",
+      "schedule",
+      "calendar"
+    ],
+    "loudspeaker": [
+      "announcement",
+      "broadcast",
+      "speaker",
+      "sound"
+    ],
+    "ad": [
+      "advertisement",
+      "promotion",
+      "marketing",
+      "banner"
+    ],
+    "coupon": [
+      "discount",
+      "voucher",
+      "promotion",
+      "sale"
+    ],
+    "coupon-used": [
+      "coupon",
+      "used",
+      "redeemed",
+      "check"
+    ],
+    "voucher": [
+      "gift",
+      "certificate",
+      "present",
+      "box"
+    ],
+    "promotion": [
+      "discount",
+      "sale",
+      "offer",
+      "percentage"
+    ],
+    "helpcenter": [
+      "help",
+      "support",
+      "assistance",
+      "customer service"
+    ],
+    "order": [
+      "purchase",
+      "request",
+      "checklist",
+      "check"
+    ],
+    "condo": [
+      "apartment",
+      "building",
+      "residence",
+      "housing"
+    ],
+    "community": [
+      "group",
+      "network",
+      "society",
+      "people"
+    ],
+    "housekeeping-book": [
+      "housekeeping",
+      "book",
+      "record",
+      "ledger"
+    ],
+    "mission": [
+      "task",
+      "goal",
+      "objective",
+      "book"
+    ],
+    "invite": [
+      "invitation",
+      "request",
+      "email",
+      "envelope"
+    ],
+    "article": [
+      "news",
+      "blog",
+      "content",
+      "document"
+    ],
+    "note": [
+      "memo",
+      "reminder",
+      "document",
+      "list"
+    ],
+    "write-frequent-use": [
+      "write",
+      "frequent",
+      "add",
+      "document"
+    ],
+    "story-article": [
+      "story",
+      "article",
+      "news",
+      "document"
+    ],
+    "import": [
+      "download",
+      "transfer",
+      "receive",
+      "document"
+    ],
+    "search-doc": [
+      "search",
+      "document",
+      "find",
+      "information"
+    ],
+    "chart": [
+      "graph",
+      "data",
+      "statistics",
+      "analysis"
+    ],
+    "chart-2": [
+      "chart",
+      "graph",
+      "data",
+      "presentation"
+    ],
+    "category-restaurant": [
+      "category",
+      "restaurant",
+      "food",
+      "dining",
+      "fork",
+      "spoon"
+    ],
+    "category-cafe": [
+      "category",
+      "cafe",
+      "coffee",
+      "tea",
+      "drink",
+      "cup"
+    ],
+    "category-truck": [
+      "category",
+      "truck",
+      "delivery",
+      "transport",
+      "vehicle"
+    ],
+    "category-academy": [
+      "category",
+      "academy",
+      "education",
+      "learning",
+      "school",
+      "graduation cap"
+    ],
+    "category-fitness": [
+      "category",
+      "fitness",
+      "gym",
+      "workout",
+      "exercise",
+      "dumbbell"
+    ],
+    "category-beautyshop": [
+      "category",
+      "beauty shop",
+      "salon",
+      "haircut",
+      "scissors"
+    ],
+    "category-beauty": [
+      "category",
+      "beauty",
+      "cosmetics",
+      "makeup",
+      "nail polish"
+    ],
+    "category-homerepair": [
+      "category",
+      "home repair",
+      "maintenance",
+      "handyman",
+      "paint roller"
+    ],
+    "category-construction": [
+      "category",
+      "construction",
+      "building",
+      "tools",
+      "wrench"
+    ],
+    "category-class": [
+      "category",
+      "class",
+      "lesson",
+      "course",
+      "group"
+    ],
+    "category-life": [
+      "category",
+      "life",
+      "lifestyle",
+      "living",
+      "home",
+      "family"
+    ],
+    "sevice-shop": [
+      "service",
+      "shop",
+      "shopping",
+      "retail",
+      "bag"
+    ],
+    "sevice-realty": [
+      "service",
+      "real estate",
+      "property",
+      "house",
+      "building"
+    ],
+    "sevice-car": [
+      "service",
+      "car",
+      "automotive",
+      "vehicle",
+      "automobile"
+    ],
+    "sevice-jobs": [
+      "service",
+      "jobs",
+      "employment",
+      "career",
+      "search"
+    ],
+    "sevice-group": [
+      "service",
+      "group",
+      "community",
+      "team",
+      "people"
+    ],
+    "sevice-pickup": [
+      "service",
+      "pickup",
+      "takeout",
+      "food",
+      "delivery"
+    ],
+    "sevice-booster": [
+      "service",
+      "boost",
+      "promotion",
+      "increase",
+      "arrow"
+    ],
+    "sevice-story": [
+      "service",
+      "story",
+      "video",
+      "content",
+      "play"
+    ],
+    "sevice-bizprofile": [
+      "service",
+      "business profile",
+      "company",
+      "store",
+      "shop"
+    ]
+  }
+}

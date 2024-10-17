@@ -1,0 +1,1667 @@
+{
+  "systemPrompt": "You are an icon tagging assistant. Based on the icon image and name, please provide tags that you think are appropriate. For example, if the icon is a car, you can provide tags like \"vehicle\", \"transportation\", \"automobile\", \"ride\", etc.",
+  "description": "태그 추천",
+  "seed": 78897,
+  "results": {
+    "arrow-left": [
+      "arrow",
+      "left",
+      "direction",
+      "navigation",
+      "back"
+    ],
+    "arrow-right": [
+      "arrow",
+      "right",
+      "direction",
+      "navigation",
+      "forward"
+    ],
+    "arrow-up": [
+      "arrow",
+      "up",
+      "direction",
+      "navigation"
+    ],
+    "arrow-down": [
+      "arrow",
+      "down",
+      "direction",
+      "navigation"
+    ],
+    "arrow-up-right": [
+      "arrow",
+      "up",
+      "right",
+      "direction",
+      "navigation"
+    ],
+    "arrow-down-horizline": [
+      "arrow",
+      "down",
+      "horizontal",
+      "line",
+      "direction",
+      "navigation"
+    ],
+    "checkmark-horizline": [
+      "checkmark",
+      "horizontal",
+      "line",
+      "tick",
+      "done",
+      "complete"
+    ],
+    "arrow-up-right-arrow-down-left": [
+      "arrow",
+      "up",
+      "right",
+      "down",
+      "left",
+      "direction",
+      "navigation",
+      "opposite"
+    ],
+    "arrow-right-arrow-left": [
+      "arrow",
+      "right",
+      "left",
+      "direction",
+      "navigation",
+      "opposite"
+    ],
+    "arrow-up-arrow-down": [
+      "arrow",
+      "up",
+      "down",
+      "direction",
+      "navigation",
+      "opposite"
+    ],
+    "chevron-left": [
+      "chevron",
+      "left",
+      "direction",
+      "navigation",
+      "back"
+    ],
+    "chevron-right": [
+      "chevron",
+      "right",
+      "direction",
+      "navigation",
+      "forward"
+    ],
+    "chevron-down": [
+      "chevron",
+      "down",
+      "direction",
+      "navigation"
+    ],
+    "chevron-up": [
+      "chevron",
+      "up",
+      "direction",
+      "navigation"
+    ],
+    "arrow-uturn-left": [
+      "arrow",
+      "uturn",
+      "left",
+      "direction",
+      "navigation",
+      "turn",
+      "rotate"
+    ],
+    "arrow-uturn-right": [
+      "arrow",
+      "uturn",
+      "right",
+      "direction",
+      "navigation",
+      "turn",
+      "rotate"
+    ],
+    "arrow-clockwise-circular": [
+      "arrow",
+      "clockwise",
+      "circular",
+      "direction",
+      "navigation",
+      "rotate",
+      "reload",
+      "refresh"
+    ],
+    "arrow2-clockwise-circular": [
+      "arrow",
+      "clockwise",
+      "circular",
+      "direction",
+      "navigation",
+      "rotate",
+      "reload",
+      "refresh"
+    ],
+    "triangle-down-small": [
+      "triangle",
+      "down",
+      "small",
+      "direction",
+      "dropdown"
+    ],
+    "triangle-up-small": [
+      "triangle",
+      "up",
+      "small",
+      "direction"
+    ],
+    "dot3-horizontal": [
+      "dots",
+      "horizontal",
+      "more",
+      "menu"
+    ],
+    "dot3-vertical": [
+      "dots",
+      "vertical",
+      "more",
+      "menu"
+    ],
+    "arrow-left-bracket-right": [
+      "arrow",
+      "left",
+      "bracket",
+      "right",
+      "direction",
+      "navigation",
+      "enter"
+    ],
+    "bracket-left-arrow-right": [
+      "bracket",
+      "left",
+      "arrow",
+      "right",
+      "direction",
+      "navigation",
+      "exit"
+    ],
+    "horizline3-vertical-tight": [
+      "horizontal",
+      "lines",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "corner-down-left": [
+      "corner",
+      "down",
+      "left",
+      "shape"
+    ],
+    "backspacekey": [
+      "backspace",
+      "key",
+      "keyboard",
+      "delete"
+    ],
+    "keyboard-chevron-down": [
+      "keyboard",
+      "chevron",
+      "down",
+      "input"
+    ],
+    "musicalnote-double": [
+      "musical",
+      "note",
+      "double",
+      "music",
+      "sound"
+    ],
+    "triangle-right": [
+      "triangle",
+      "right",
+      "direction",
+      "play"
+    ],
+    "vertrectangle2-horizontal": [
+      "vertical",
+      "rectangles",
+      "horizontal",
+      "columns",
+      "layout"
+    ],
+    "microphone": [
+      "microphone",
+      "audio",
+      "record",
+      "voice"
+    ],
+    "microphone-slash": [
+      "microphone",
+      "slash",
+      "audio",
+      "record",
+      "voice",
+      "mute",
+      "disabled"
+    ],
+    "speaker-wave2": [
+      "speaker",
+      "wave",
+      "audio",
+      "sound"
+    ],
+    "speaker-slash": [
+      "speaker",
+      "slash",
+      "audio",
+      "sound",
+      "mute",
+      "disabled"
+    ],
+    "globe": [
+      "globe",
+      "world",
+      "global",
+      "earth",
+      "planet",
+      "international"
+    ],
+    "earth": [
+      "earth",
+      "world",
+      "global",
+      "planet",
+      "environment"
+    ],
+    "locationpin": [
+      "location",
+      "pin",
+      "map",
+      "place",
+      "marker"
+    ],
+    "map-locationpin": [
+      "map",
+      "location",
+      "pin",
+      "place",
+      "marker"
+    ],
+    "crosshair": [
+      "crosshair",
+      "target",
+      "aim",
+      "focus"
+    ],
+    "crosshair-questionmark": [
+      "crosshair",
+      "question",
+      "mark",
+      "target",
+      "aim",
+      "focus",
+      "help"
+    ],
+    "compass": [
+      "compass",
+      "direction",
+      "navigation",
+      "north",
+      "south",
+      "east",
+      "west"
+    ],
+    "camera": [
+      "camera",
+      "photo",
+      "picture",
+      "photography"
+    ],
+    "camcorder": [
+      "camcorder",
+      "video",
+      "record",
+      "film"
+    ],
+    "picture": [
+      "picture",
+      "image",
+      "photo",
+      "photography"
+    ],
+    "picture2-stacked": [
+      "pictures",
+      "images",
+      "photos",
+      "stacked",
+      "gallery"
+    ],
+    "scribble": [
+      "scribble",
+      "draw",
+      "sketch",
+      "doodle"
+    ],
+    "wand": [
+      "wand",
+      "magic",
+      "wizard",
+      "tool"
+    ],
+    "cropmark": [
+      "crop",
+      "mark",
+      "image",
+      "edit",
+      "adjust"
+    ],
+    "paperclip": [
+      "paperclip",
+      "attach",
+      "attachment",
+      "file"
+    ],
+    "rectangle-splited-line-vertical": [
+      "rectangle",
+      "split",
+      "line",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "lightning": [
+      "lightning",
+      "electricity",
+      "power",
+      "energy",
+      "storm"
+    ],
+    "lightning-slash": [
+      "lightning",
+      "slash",
+      "electricity",
+      "power",
+      "energy",
+      "storm",
+      "disabled"
+    ],
+    "timer": [
+      "timer",
+      "time",
+      "clock",
+      "countdown"
+    ],
+    "timer-3": [
+      "timer",
+      "time",
+      "clock",
+      "countdown",
+      "3",
+      "seconds",
+      "minutes"
+    ],
+    "timer-10": [
+      "timer",
+      "time",
+      "clock",
+      "countdown",
+      "10",
+      "seconds",
+      "minutes"
+    ],
+    "pen-horizline": [
+      "pen",
+      "horizontal",
+      "line",
+      "write",
+      "edit"
+    ],
+    "eraser-horizline": [
+      "eraser",
+      "horizontal",
+      "line",
+      "delete",
+      "remove"
+    ],
+    "text-alignleft": [
+      "text",
+      "align",
+      "left",
+      "format"
+    ],
+    "text-aligncenter": [
+      "text",
+      "align",
+      "center",
+      "format"
+    ],
+    "text-alignright": [
+      "text",
+      "align",
+      "right",
+      "format"
+    ],
+    "a-uppercase-square": [
+      "a",
+      "uppercase",
+      "square",
+      "letter",
+      "alphabet"
+    ],
+    "a-uppercase-a-lowercase": [
+      "a",
+      "uppercase",
+      "lowercase",
+      "letter",
+      "alphabet",
+      "case"
+    ],
+    "t-uppercase-serif": [
+      "t",
+      "uppercase",
+      "serif",
+      "letter",
+      "alphabet",
+      "font"
+    ],
+    "percent": [
+      "percent",
+      "percentage",
+      "discount",
+      "sale"
+    ],
+    "hash": [
+      "hash",
+      "hashtag",
+      "symbol",
+      "number"
+    ],
+    "quotationmark2-left": [
+      "quotation",
+      "mark",
+      "left",
+      "quote"
+    ],
+    "quotationmark2-right": [
+      "quotation",
+      "mark",
+      "right",
+      "quote"
+    ],
+    "translation": [
+      "translation",
+      "language",
+      "translate",
+      "interpret"
+    ],
+    "n-uppercase-circle": [
+      "n",
+      "uppercase",
+      "circle",
+      "letter",
+      "alphabet"
+    ],
+    "house": [
+      "house",
+      "home",
+      "building",
+      "residence"
+    ],
+    "house-heart": [
+      "house",
+      "heart",
+      "home",
+      "love",
+      "favorite"
+    ],
+    "heart": [
+      "heart",
+      "love",
+      "favorite",
+      "like"
+    ],
+    "star": [
+      "star",
+      "favorite",
+      "rating",
+      "ranking"
+    ],
+    "bookmark": [
+      "bookmark",
+      "save",
+      "favorite",
+      "reading"
+    ],
+    "pushpin": [
+      "pushpin",
+      "pin",
+      "marker",
+      "location"
+    ],
+    "thumb-up": [
+      "thumb",
+      "up",
+      "like",
+      "approve",
+      "positive"
+    ],
+    "thumb-down": [
+      "thumb",
+      "down",
+      "dislike",
+      "disapprove",
+      "negative"
+    ],
+    "eye": [
+      "eye",
+      "see",
+      "view",
+      "visible"
+    ],
+    "eye-slash": [
+      "eye",
+      "slash",
+      "see",
+      "view",
+      "visible",
+      "hidden",
+      "invisible"
+    ],
+    "face-smile-circle": [
+      "face",
+      "smile",
+      "circle",
+      "happy",
+      "positive",
+      "emoji"
+    ],
+    "face-sad-circle": [
+      "face",
+      "sad",
+      "circle",
+      "unhappy",
+      "negative",
+      "emoji"
+    ],
+    "face-smile-circle-folded": [
+      "face",
+      "smile",
+      "circle",
+      "folded",
+      "happy",
+      "positive",
+      "emoji",
+      "shy"
+    ],
+    "grid-heart": [
+      "grid",
+      "heart",
+      "layout",
+      "favorite"
+    ],
+    "magnifyingglass": [
+      "magnifying",
+      "glass",
+      "search",
+      "zoom",
+      "find"
+    ],
+    "gear": [
+      "gear",
+      "settings",
+      "options",
+      "configuration"
+    ],
+    "slider2-horizontal": [
+      "slider",
+      "horizontal",
+      "adjust",
+      "control"
+    ],
+    "arrow-up-bracket-down": [
+      "arrow",
+      "up",
+      "bracket",
+      "down",
+      "direction",
+      "navigation",
+      "expand",
+      "collapse"
+    ],
+    "androidshare": [
+      "android",
+      "share",
+      "social",
+      "media"
+    ],
+    "trashcan": [
+      "trash",
+      "can",
+      "delete",
+      "remove",
+      "garbage"
+    ],
+    "paperplane": [
+      "paper",
+      "plane",
+      "send",
+      "message",
+      "email"
+    ],
+    "hand-point-up": [
+      "hand",
+      "point",
+      "up",
+      "direction",
+      "gesture"
+    ],
+    "square2-stacked": [
+      "squares",
+      "stacked",
+      "layers",
+      "multiple"
+    ],
+    "horizline-viewfinder": [
+      "horizontal",
+      "line",
+      "viewfinder",
+      "camera",
+      "focus"
+    ],
+    "dot3-horizontal-chatbubble-left": [
+      "dots",
+      "horizontal",
+      "chat",
+      "bubble",
+      "left",
+      "message",
+      "more"
+    ],
+    "checkmark-chatbubble-left": [
+      "checkmark",
+      "chat",
+      "bubble",
+      "left",
+      "message",
+      "sent"
+    ],
+    "horizline2-vertical-chatbubble-right": [
+      "horizontal",
+      "lines",
+      "vertical",
+      "chat",
+      "bubble",
+      "right",
+      "message"
+    ],
+    "at": [
+      "at",
+      "symbol",
+      "email",
+      "address"
+    ],
+    "bell": [
+      "bell",
+      "notification",
+      "alert",
+      "reminder"
+    ],
+    "bell-slash": [
+      "bell",
+      "slash",
+      "notification",
+      "alert",
+      "reminder",
+      "mute",
+      "disabled"
+    ],
+    "phone": [
+      "phone",
+      "call",
+      "telephone",
+      "communication"
+    ],
+    "phone-xmark": [
+      "phone",
+      "xmark",
+      "call",
+      "telephone",
+      "communication",
+      "cancel",
+      "end"
+    ],
+    "flag": [
+      "flag",
+      "marker",
+      "location",
+      "country",
+      "nation"
+    ],
+    "lock": [
+      "lock",
+      "security",
+      "privacy",
+      "protect"
+    ],
+    "lock-opened": [
+      "lock",
+      "opened",
+      "security",
+      "privacy",
+      "unlock"
+    ],
+    "person": [
+      "person",
+      "user",
+      "profile",
+      "account"
+    ],
+    "person2": [
+      "people",
+      "users",
+      "group",
+      "team"
+    ],
+    "person-circle": [
+      "person",
+      "circle",
+      "user",
+      "profile",
+      "account"
+    ],
+    "person-plus": [
+      "person",
+      "plus",
+      "user",
+      "add",
+      "create"
+    ],
+    "checkmark-badge": [
+      "checkmark",
+      "badge",
+      "verified",
+      "approved"
+    ],
+    "sun": [
+      "sun",
+      "weather",
+      "sunny",
+      "daytime"
+    ],
+    "moon": [
+      "moon",
+      "weather",
+      "night",
+      "nighttime"
+    ],
+    "plus": [
+      "plus",
+      "add",
+      "create",
+      "positive"
+    ],
+    "minus": [
+      "minus",
+      "subtract",
+      "remove",
+      "negative"
+    ],
+    "xmark": [
+      "xmark",
+      "close",
+      "delete",
+      "cancel"
+    ],
+    "checkmark-bold": [
+      "checkmark",
+      "bold",
+      "tick",
+      "done",
+      "complete"
+    ],
+    "xmark-circle": [
+      "xmark",
+      "circle",
+      "close",
+      "delete",
+      "cancel"
+    ],
+    "plus-circle": [
+      "plus",
+      "circle",
+      "add",
+      "create",
+      "positive"
+    ],
+    "minus-circle": [
+      "minus",
+      "circle",
+      "subtract",
+      "remove",
+      "negative"
+    ],
+    "plus-square": [
+      "plus",
+      "square",
+      "add",
+      "create",
+      "positive"
+    ],
+    "slash-circle": [
+      "slash",
+      "circle",
+      "cancel",
+      "disabled"
+    ],
+    "i-lowercase-serif-circle": [
+      "i",
+      "lowercase",
+      "serif",
+      "circle",
+      "information"
+    ],
+    "exclamationmark-circle": [
+      "exclamation",
+      "mark",
+      "circle",
+      "warning",
+      "alert"
+    ],
+    "questionmark-circle": [
+      "question",
+      "mark",
+      "circle",
+      "help",
+      "information"
+    ],
+    "questionmark-sqaure": [
+      "question",
+      "mark",
+      "square",
+      "help",
+      "information"
+    ],
+    "checkmark-bold-flower": [
+      "checkmark",
+      "bold",
+      "flower",
+      "success",
+      "celebration"
+    ],
+    "figure-walk": [
+      "figure",
+      "walk",
+      "person",
+      "walking",
+      "move"
+    ],
+    "figure-run": [
+      "figure",
+      "run",
+      "person",
+      "running",
+      "move"
+    ],
+    "figure-wheelchair": [
+      "figure",
+      "wheelchair",
+      "person",
+      "accessibility",
+      "disabled"
+    ],
+    "figure-oval": [
+      "figure",
+      "oval",
+      "person",
+      "user"
+    ],
+    "hand-wave": [
+      "hand",
+      "wave",
+      "greeting",
+      "hello",
+      "goodbye"
+    ],
+    "flask": [
+      "flask",
+      "science",
+      "chemistry",
+      "laboratory",
+      "experiment"
+    ],
+    "lightbulb-dot5": [
+      "lightbulb",
+      "dots",
+      "idea",
+      "creative",
+      "thinking"
+    ],
+    "flag-hill": [
+      "flag",
+      "hill",
+      "goal",
+      "achievement",
+      "target"
+    ],
+    "trophy": [
+      "trophy",
+      "award",
+      "winner",
+      "prize",
+      "achievement"
+    ],
+    "laptop": [
+      "laptop",
+      "computer",
+      "technology",
+      "device"
+    ],
+    "mobile": [
+      "mobile",
+      "phone",
+      "smartphone",
+      "technology",
+      "device"
+    ],
+    "arrow-right-angled": [
+      "arrow",
+      "right",
+      "angled",
+      "direction",
+      "navigation",
+      "turn"
+    ],
+    "arrow-clockwise-oval": [
+      "arrow",
+      "clockwise",
+      "oval",
+      "direction",
+      "navigation",
+      "rotate",
+      "reload",
+      "refresh"
+    ],
+    "speedometer": [
+      "speedometer",
+      "speed",
+      "gauge",
+      "dashboard",
+      "car"
+    ],
+    "speedometer-1x": [
+      "speedometer",
+      "speed",
+      "gauge",
+      "dashboard",
+      "car",
+      "1x",
+      "normal"
+    ],
+    "speedometer-2x": [
+      "speedometer",
+      "speed",
+      "gauge",
+      "dashboard",
+      "car",
+      "2x",
+      "double"
+    ],
+    "speedometer-3x": [
+      "speedometer",
+      "speed",
+      "gauge",
+      "dashboard",
+      "car",
+      "3x",
+      "triple"
+    ],
+    "roadlane": [
+      "road",
+      "lane",
+      "highway",
+      "street",
+      "driving"
+    ],
+    "epb": [
+      "epb",
+      "electronic",
+      "parking",
+      "brake",
+      "car"
+    ],
+    "car-rear-trunk-open-leftside": [
+      "car",
+      "rear",
+      "trunk",
+      "open",
+      "left",
+      "side",
+      "vehicle"
+    ],
+    "smartkey": [
+      "smart",
+      "key",
+      "car",
+      "vehicle",
+      "remote"
+    ],
+    "steeringwheel-heatwave2": [
+      "steering",
+      "wheel",
+      "heat",
+      "wave",
+      "car",
+      "vehicle",
+      "warm"
+    ],
+    "car-front-upside-wave2-reversed-up": [
+      "car",
+      "front",
+      "upside",
+      "wave",
+      "reversed",
+      "up",
+      "vehicle",
+      "motion"
+    ],
+    "car-rear-upside-wave2-reversed-down-left": [
+      "car",
+      "rear",
+      "upside",
+      "wave",
+      "reversed",
+      "down",
+      "left",
+      "vehicle",
+      "motion"
+    ],
+    "car-rear-upside-sector-down": [
+      "car",
+      "rear",
+      "upside",
+      "sector",
+      "down",
+      "vehicle",
+      "motion"
+    ],
+    "car-rear-upside-wave2-reversed-down": [
+      "car",
+      "rear",
+      "upside",
+      "wave",
+      "reversed",
+      "down",
+      "vehicle",
+      "motion"
+    ],
+    "seat-left": [
+      "seat",
+      "left",
+      "chair",
+      "passenger"
+    ],
+    "seat-left-fan": [
+      "seat",
+      "left",
+      "fan",
+      "chair",
+      "passenger",
+      "ventilation"
+    ],
+    "seat-left-heatwave2": [
+      "seat",
+      "left",
+      "heat",
+      "wave",
+      "chair",
+      "passenger",
+      "heating"
+    ],
+    "horizline3-vertical": [
+      "horizontal",
+      "lines",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "horizline3-vertical-checkmark": [
+      "horizontal",
+      "lines",
+      "vertical",
+      "checkmark",
+      "divider",
+      "separator",
+      "done"
+    ],
+    "checkmarkhorizline2-vertical": [
+      "checkmark",
+      "horizontal",
+      "lines",
+      "vertical",
+      "divider",
+      "separator",
+      "done"
+    ],
+    "dothorizline3-vertical": [
+      "dot",
+      "horizontal",
+      "line",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "horizline3-vertical-star": [
+      "horizontal",
+      "lines",
+      "vertical",
+      "star",
+      "divider",
+      "separator",
+      "favorite"
+    ],
+    "squareline2-vertical": [
+      "square",
+      "lines",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "horizrectangle-horizline2-vertical": [
+      "horizontal",
+      "rectangle",
+      "lines",
+      "vertical",
+      "divider",
+      "separator"
+    ],
+    "check-ballotbox": [
+      "check",
+      "ballot",
+      "box",
+      "vote",
+      "election"
+    ],
+    "malesymbol-femalesymbol": [
+      "male",
+      "female",
+      "symbol",
+      "gender"
+    ],
+    "toolbox": [
+      "toolbox",
+      "tools",
+      "repair",
+      "maintenance"
+    ],
+    "flame": [
+      "flame",
+      "fire",
+      "hot",
+      "burn"
+    ],
+    "q-uppercase-chatbubble-right": [
+      "q",
+      "uppercase",
+      "chat",
+      "bubble",
+      "right",
+      "question"
+    ],
+    "leaf": [
+      "leaf",
+      "nature",
+      "plant",
+      "tree",
+      "environment"
+    ],
+    "crown": [
+      "crown",
+      "king",
+      "queen",
+      "royalty",
+      "power"
+    ],
+    "sparkle2": [
+      "sparkle",
+      "shine",
+      "glitter",
+      "celebration"
+    ],
+    "shoppingbag": [
+      "shopping",
+      "bag",
+      "retail",
+      "purchase",
+      "store"
+    ],
+    "shoppingbag2-stacked": [
+      "shopping",
+      "bags",
+      "stacked",
+      "retail",
+      "purchase",
+      "store"
+    ],
+    "tag": [
+      "tag",
+      "label",
+      "keyword",
+      "category"
+    ],
+    "cart": [
+      "cart",
+      "shopping",
+      "retail",
+      "purchase"
+    ],
+    "receipt": [
+      "receipt",
+      "invoice",
+      "bill",
+      "payment"
+    ],
+    "card": [
+      "card",
+      "credit",
+      "debit",
+      "payment"
+    ],
+    "won-arrow-clockwise-circular": [
+      "won",
+      "arrow",
+      "clockwise",
+      "circular",
+      "currency",
+      "korean",
+      "exchange"
+    ],
+    "won-circle-arrow-right": [
+      "won",
+      "circle",
+      "arrow",
+      "right",
+      "currency",
+      "korean",
+      "exchange",
+      "send"
+    ],
+    "won": [
+      "won",
+      "currency",
+      "korean",
+      "money"
+    ],
+    "won-circle": [
+      "won",
+      "circle",
+      "currency",
+      "korean",
+      "money"
+    ],
+    "check-shield": [
+      "check",
+      "shield",
+      "security",
+      "protection",
+      "safe"
+    ],
+    "person-shield": [
+      "person",
+      "shield",
+      "user",
+      "protection",
+      "security"
+    ],
+    "won-shield": [
+      "won",
+      "shield",
+      "currency",
+      "korean",
+      "protection",
+      "security"
+    ],
+    "store": [
+      "store",
+      "shop",
+      "retail",
+      "building"
+    ],
+    "store-pen": [
+      "store",
+      "pen",
+      "shop",
+      "retail",
+      "edit",
+      "update"
+    ],
+    "store-check": [
+      "store",
+      "check",
+      "shop",
+      "retail",
+      "done",
+      "complete"
+    ],
+    "clock": [
+      "clock",
+      "time",
+      "hour",
+      "minute"
+    ],
+    "calendar": [
+      "calendar",
+      "date",
+      "month",
+      "year",
+      "schedule"
+    ],
+    "check-calendar": [
+      "check",
+      "calendar",
+      "date",
+      "schedule",
+      "appointment"
+    ],
+    "megaphone": [
+      "megaphone",
+      "announcement",
+      "promotion",
+      "marketing"
+    ],
+    "signboard": [
+      "signboard",
+      "sign",
+      "advertising",
+      "marketing"
+    ],
+    "coupon": [
+      "coupon",
+      "discount",
+      "promotion",
+      "voucher"
+    ],
+    "check-coupon": [
+      "check",
+      "coupon",
+      "discount",
+      "promotion",
+      "redeemed"
+    ],
+    "gift": [
+      "gift",
+      "present",
+      "surprise",
+      "celebration"
+    ],
+    "percent-flower": [
+      "percent",
+      "flower",
+      "discount",
+      "sale",
+      "promotion"
+    ],
+    "headset": [
+      "headset",
+      "headphones",
+      "audio",
+      "music",
+      "sound"
+    ],
+    "check-clipboard": [
+      "check",
+      "clipboard",
+      "copy",
+      "paste",
+      "done"
+    ],
+    "building2": [
+      "buildings",
+      "city",
+      "urban",
+      "architecture"
+    ],
+    "person-leaf": [
+      "person",
+      "leaf",
+      "user",
+      "nature",
+      "environment"
+    ],
+    "book": [
+      "book",
+      "read",
+      "reading",
+      "education",
+      "knowledge"
+    ],
+    "book-open": [
+      "book",
+      "open",
+      "read",
+      "reading",
+      "education",
+      "knowledge"
+    ],
+    "envelope": [
+      "envelope",
+      "mail",
+      "message",
+      "letter",
+      "communication"
+    ],
+    "article": [
+      "article",
+      "blog",
+      "news",
+      "content",
+      "writing"
+    ],
+    "document": [
+      "document",
+      "file",
+      "paper",
+      "information"
+    ],
+    "document-plus": [
+      "document",
+      "plus",
+      "file",
+      "add",
+      "create"
+    ],
+    "document-pen": [
+      "document",
+      "pen",
+      "file",
+      "edit",
+      "write"
+    ],
+    "document-arrow-left": [
+      "document",
+      "arrow",
+      "left",
+      "file",
+      "back",
+      "previous"
+    ],
+    "document-magnifyingglass": [
+      "document",
+      "magnifying",
+      "glass",
+      "file",
+      "search",
+      "zoom"
+    ],
+    "barchart-square": [
+      "barchart",
+      "square",
+      "graph",
+      "chart",
+      "data"
+    ],
+    "barchart-board": [
+      "barchart",
+      "board",
+      "graph",
+      "chart",
+      "data",
+      "presentation"
+    ],
+    "category-fork-spoon": [
+      "category",
+      "fork",
+      "spoon",
+      "food",
+      "dining",
+      "restaurant"
+    ],
+    "category-cup-heatwave": [
+      "category",
+      "cup",
+      "heatwave",
+      "drink",
+      "beverage",
+      "hot"
+    ],
+    "category-truck": [
+      "category",
+      "truck",
+      "vehicle",
+      "transportation",
+      "delivery"
+    ],
+    "category-graduationcap": [
+      "category",
+      "graduation",
+      "cap",
+      "education",
+      "school"
+    ],
+    "category-dumbbell": [
+      "category",
+      "dumbbell",
+      "fitness",
+      "gym",
+      "exercise"
+    ],
+    "category-scissors": [
+      "category",
+      "scissors",
+      "tool",
+      "cut",
+      "edit"
+    ],
+    "category-nailpolish": [
+      "category",
+      "nail",
+      "polish",
+      "beauty",
+      "fashion"
+    ],
+    "category-paintroller": [
+      "category",
+      "paint",
+      "roller",
+      "tool",
+      "home",
+      "improvement"
+    ],
+    "category-wrench": [
+      "category",
+      "wrench",
+      "tool",
+      "repair",
+      "maintenance"
+    ],
+    "category-palette": [
+      "category",
+      "palette",
+      "art",
+      "design",
+      "color"
+    ],
+    "category-spraybottle-sponge": [
+      "category",
+      "spray",
+      "bottle",
+      "sponge",
+      "cleaning",
+      "housekeeping"
+    ],
+    "category-shoppingbag-items": [
+      "category",
+      "shopping",
+      "bag",
+      "items",
+      "retail",
+      "purchase"
+    ],
+    "category-window4-house": [
+      "category",
+      "window",
+      "house",
+      "home",
+      "real",
+      "estate"
+    ],
+    "category-car-frontside": [
+      "category",
+      "car",
+      "frontside",
+      "vehicle",
+      "transportation"
+    ],
+    "category-magnifyingglass": [
+      "category",
+      "magnifying",
+      "glass",
+      "search",
+      "find"
+    ],
+    "category-person2-openarms": [
+      "category",
+      "people",
+      "open",
+      "arms",
+      "welcome",
+      "community"
+    ],
+    "category-fork-spoon-bag": [
+      "category",
+      "fork",
+      "spoon",
+      "bag",
+      "food",
+      "delivery",
+      "takeaway"
+    ],
+    "category-linechart-up-xaxis": [
+      "category",
+      "line",
+      "chart",
+      "up",
+      "xaxis",
+      "graph",
+      "data",
+      "growth"
+    ],
+    "category-triangle-right-chatbubble-left": [
+      "category",
+      "triangle",
+      "right",
+      "chat",
+      "bubble",
+      "left",
+      "message",
+      "communication"
+    ],
+    "category-window2-store": [
+      "category",
+      "window",
+      "store",
+      "shop",
+      "retail"
+    ]
+  }
+}
