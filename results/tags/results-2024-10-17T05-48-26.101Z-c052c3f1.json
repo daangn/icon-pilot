@@ -1,0 +1,2118 @@
+{
+  "systemPrompt": "You are an icon tagging assistant. Based on the icon image and name, please provide tags that you think are appropriate in English and 한국어. For example, if the icon is a car, you can provide tags like \"vehicle\", \"transportation\", \"automobile\", \"ride\", etc. and if the icon is two vertical rectangles, you can provide tags like \"pause\", \"vertical\", \"rectangle\", etc. Please try to keep the tag in a single word or a short phrase. Please do NOT provide tags that are not words or phrases.",
+  "description": "태그 추천",
+  "seed": 302,
+  "results": {
+    "icon-arrow-left": [
+      "arrow",
+      "left",
+      "back",
+      "previous",
+      "이전",
+      "뒤로"
+    ],
+    "icon-arrow-right": [
+      "arrow",
+      "right",
+      "forward",
+      "next",
+      "다음",
+      "앞으로"
+    ],
+    "icon-arrow-up": [
+      "arrow",
+      "up",
+      "위로"
+    ],
+    "icon-arrow-down": [
+      "arrow",
+      "down",
+      "아래로"
+    ],
+    "icon-arrow-up-right": [
+      "arrow",
+      "up",
+      "right",
+      "위",
+      "오른쪽"
+    ],
+    "icon-arrow-down-horizline": [
+      "horizontal line",
+      "arrow down",
+      "가로선",
+      "아래 화살표"
+    ],
+    "icon-checkmark-horizline": [
+      "check",
+      "checkmark",
+      "horizontal line",
+      "tick",
+      "확인",
+      "체크",
+      "가로선"
+    ],
+    "icon-arrow-up-right-arrow-down-left": [
+      "arrow",
+      "up right",
+      "down left",
+      "화살표",
+      "오른쪽 위",
+      "왼쪽 아래"
+    ],
+    "icon-arrow-right-arrow-left": [
+      "arrow",
+      "right",
+      "left",
+      "exchange",
+      "swap",
+      "화살표",
+      "오른쪽",
+      "왼쪽",
+      "교환"
+    ],
+    "icon-arrow-up-arrow-down": [
+      "arrow",
+      "up",
+      "down",
+      "sort",
+      "화살표",
+      "위",
+      "아래",
+      "정렬"
+    ],
+    "icon-chevron-left": [
+      "chevron",
+      "left",
+      "back",
+      "previous",
+      "이전",
+      "뒤로"
+    ],
+    "icon-chevron-right": [
+      "chevron",
+      "right",
+      "forward",
+      "next",
+      "다음",
+      "앞으로"
+    ],
+    "icon-chevron-down": [
+      "chevron",
+      "down",
+      "아래로"
+    ],
+    "icon-chevron-up": [
+      "chevron",
+      "up",
+      "위로"
+    ],
+    "icon-arrow-uturn-left": [
+      "arrow",
+      "uturn",
+      "left",
+      "undo",
+      "reverse",
+      "화살표",
+      "유턴",
+      "왼쪽",
+      "되돌리기"
+    ],
+    "icon-arrow-uturn-right": [
+      "arrow",
+      "uturn",
+      "right",
+      "redo",
+      "forward",
+      "화살표",
+      "유턴",
+      "오른쪽",
+      "앞으로"
+    ],
+    "icon-arrow-clockwise-circular": [
+      "arrow",
+      "circular",
+      "clockwise",
+      "reload",
+      "refresh",
+      "rotate",
+      "화살표",
+      "원형",
+      "시계방향",
+      "새로고침",
+      "회전"
+    ],
+    "icon-arrow2-clockwise-circular": [
+      "arrow",
+      "circular",
+      "clockwise",
+      "reload",
+      "refresh",
+      "rotate",
+      "화살표",
+      "원형",
+      "시계방향",
+      "새로고침",
+      "회전"
+    ],
+    "icon-triangle-down-small": [
+      "triangle",
+      "down",
+      "small",
+      "arrow",
+      "삼각형",
+      "아래",
+      "작은",
+      "화살표"
+    ],
+    "icon-triangle-up-small": [
+      "triangle",
+      "up",
+      "small",
+      "arrow",
+      "삼각형",
+      "위",
+      "작은",
+      "화살표"
+    ],
+    "icon-dot3-horizontal": [
+      "dots",
+      "horizontal",
+      "more",
+      "menu",
+      "점",
+      "가로",
+      "더보기",
+      "메뉴"
+    ],
+    "icon-dot3-vertical": [
+      "dots",
+      "vertical",
+      "more",
+      "menu",
+      "점",
+      "세로",
+      "더보기",
+      "메뉴"
+    ],
+    "icon-arrow-left-bracket-right": [
+      "arrow",
+      "left",
+      "bracket",
+      "right",
+      "in",
+      "out",
+      "화살표",
+      "왼쪽",
+      "괄호",
+      "오른쪽",
+      "들어가기",
+      "나가기"
+    ],
+    "icon-bracket-left-arrow-right": [
+      "bracket",
+      "left",
+      "arrow",
+      "right",
+      "in",
+      "out",
+      "괄호",
+      "왼쪽",
+      "화살표",
+      "오른쪽",
+      "들어가기",
+      "나가기"
+    ],
+    "icon-horizline3-vertical-tight": [
+      "horizontal lines",
+      "vertical",
+      "divider",
+      "separator",
+      "가로선",
+      "세로",
+      "구분선"
+    ],
+    "icon-corner-down-left": [
+      "corner",
+      "down",
+      "left",
+      "shape",
+      "모서리",
+      "아래",
+      "왼쪽",
+      "도형"
+    ],
+    "icon-backspacekey": [
+      "backspace",
+      "delete",
+      "keyboard",
+      "key",
+      "지우기",
+      "삭제",
+      "키보드",
+      "키"
+    ],
+    "icon-keyboard-chevron-down": [
+      "keyboard",
+      "chevron",
+      "down",
+      "input",
+      "키보드",
+      "셰브론",
+      "아래",
+      "입력"
+    ],
+    "icon-musicalnote-double": [
+      "music",
+      "note",
+      "double",
+      "음악",
+      "음표",
+      "두개"
+    ],
+    "icon-triangle-right": [
+      "triangle",
+      "right",
+      "play",
+      "삼각형",
+      "오른쪽",
+      "재생"
+    ],
+    "icon-vertrectangle2-horizontal": [
+      "vertical rectangle",
+      "horizontal",
+      "pause",
+      "세로 직사각형",
+      "가로",
+      "일시정지"
+    ],
+    "icon-microphone": [
+      "microphone",
+      "mic",
+      "audio",
+      "record",
+      "마이크",
+      "녹음"
+    ],
+    "icon-microphone-slash": [
+      "microphone",
+      "mic",
+      "audio",
+      "mute",
+      "off",
+      "마이크",
+      "음소거",
+      "끄기"
+    ],
+    "icon-speaker-wave2": [
+      "speaker",
+      "sound",
+      "audio",
+      "volume",
+      "wave",
+      "스피커",
+      "소리",
+      "볼륨",
+      "음파"
+    ],
+    "icon-speaker-slash": [
+      "speaker",
+      "sound",
+      "audio",
+      "mute",
+      "off",
+      "스피커",
+      "소리",
+      "음소거",
+      "끄기"
+    ],
+    "icon-globe": [
+      "globe",
+      "world",
+      "global",
+      "지구본",
+      "세계",
+      "글로벌"
+    ],
+    "icon-earth": [
+      "earth",
+      "world",
+      "global",
+      "지구",
+      "세계",
+      "글로벌"
+    ],
+    "icon-locationpin": [
+      "location",
+      "pin",
+      "map",
+      "place",
+      "위치",
+      "핀",
+      "지도",
+      "장소"
+    ],
+    "icon-map-locationpin": [
+      "map",
+      "location",
+      "pin",
+      "place",
+      "지도",
+      "위치",
+      "핀",
+      "장소"
+    ],
+    "icon-crosshair": [
+      "crosshair",
+      "target",
+      "aim",
+      "조준점",
+      "목표"
+    ],
+    "icon-crosshair-questionmark": [
+      "crosshair",
+      "question mark",
+      "target",
+      "help",
+      "조준점",
+      "물음표",
+      "목표",
+      "도움말"
+    ],
+    "icon-compass": [
+      "compass",
+      "navigation",
+      "direction",
+      "나침반",
+      "길찾기",
+      "방향"
+    ],
+    "icon-camera": [
+      "camera",
+      "photo",
+      "picture",
+      "카메라",
+      "사진"
+    ],
+    "icon-camcorder": [
+      "camcorder",
+      "video",
+      "record",
+      "캠코더",
+      "비디오",
+      "녹화"
+    ],
+    "icon-picture": [
+      "picture",
+      "image",
+      "photo",
+      "사진",
+      "이미지"
+    ],
+    "icon-picture2-stacked": [
+      "pictures",
+      "images",
+      "photos",
+      "stack",
+      "사진",
+      "이미지",
+      "스택"
+    ],
+    "icon-scribble": [
+      "scribble",
+      "draw",
+      "doodle",
+      "낙서",
+      "그리기"
+    ],
+    "icon-wand": [
+      "wand",
+      "magic",
+      "tool",
+      "지팡이",
+      "마법",
+      "도구"
+    ],
+    "icon-cropmark": [
+      "crop",
+      "image",
+      "edit",
+      "자르기",
+      "이미지",
+      "편집"
+    ],
+    "icon-paperclip": [
+      "paperclip",
+      "attach",
+      "file",
+      "클립",
+      "첨부",
+      "파일"
+    ],
+    "icon-rectangle-splited-line-vertical": [
+      "rectangle",
+      "split",
+      "vertical",
+      "divide",
+      "직사각형",
+      "분할",
+      "세로",
+      "나누기"
+    ],
+    "icon-lightning": [
+      "lightning",
+      "thunder",
+      "electricity",
+      "번개",
+      "천둥",
+      "전기"
+    ],
+    "icon-lightning-slash": [
+      "lightning",
+      "thunder",
+      "electricity",
+      "off",
+      "번개",
+      "천둥",
+      "전기",
+      "끄기"
+    ],
+    "icon-timer": [
+      "timer",
+      "time",
+      "clock",
+      "타이머",
+      "시간",
+      "시계"
+    ],
+    "icon-timer-3": [
+      "timer",
+      "time",
+      "3 seconds",
+      "타이머",
+      "시간",
+      "3초"
+    ],
+    "icon-timer-10": [
+      "timer",
+      "time",
+      "10 seconds",
+      "타이머",
+      "시간",
+      "10초"
+    ],
+    "icon-pen-horizline": [
+      "pen",
+      "write",
+      "horizontal line",
+      "펜",
+      "쓰기",
+      "가로선"
+    ],
+    "icon-eraser-horizline": [
+      "eraser",
+      "delete",
+      "horizontal line",
+      "지우개",
+      "삭제",
+      "가로선"
+    ],
+    "icon-text-alignleft": [
+      "text",
+      "align",
+      "left",
+      "텍스트",
+      "정렬",
+      "왼쪽"
+    ],
+    "icon-text-aligncenter": [
+      "text",
+      "align",
+      "center",
+      "텍스트",
+      "정렬",
+      "가운데"
+    ],
+    "icon-text-alignright": [
+      "text",
+      "align",
+      "right",
+      "텍스트",
+      "정렬",
+      "오른쪽"
+    ],
+    "icon-a-uppercase-square": [
+      "uppercase",
+      "A",
+      "square",
+      "대문자",
+      "A",
+      "정사각형"
+    ],
+    "icon-a-uppercase-a-lowercase": [
+      "uppercase",
+      "lowercase",
+      "A",
+      "대문자",
+      "소문자",
+      "A"
+    ],
+    "icon-t-uppercase-serif": [
+      "uppercase",
+      "T",
+      "serif",
+      "대문자",
+      "T",
+      "세리프"
+    ],
+    "icon-percent": [
+      "percent",
+      "percentage",
+      "discount",
+      "퍼센트",
+      "할인"
+    ],
+    "icon-hash": [
+      "hash",
+      "hashtag",
+      "number",
+      "해시태그",
+      "숫자"
+    ],
+    "icon-quotationmark2-left": [
+      "quotation mark",
+      "quote",
+      "left",
+      "따옴표",
+      "왼쪽"
+    ],
+    "icon-quotationmark2-right": [
+      "quotation mark",
+      "quote",
+      "right",
+      "따옴표",
+      "오른쪽"
+    ],
+    "icon-translation": [
+      "translation",
+      "language",
+      "번역",
+      "언어"
+    ],
+    "icon-n-uppercase-circle": [
+      "uppercase",
+      "N",
+      "circle",
+      "대문자",
+      "N",
+      "원"
+    ],
+    "icon-house": [
+      "house",
+      "home",
+      "building",
+      "집",
+      "홈",
+      "건물"
+    ],
+    "icon-house-heart": [
+      "house",
+      "home",
+      "heart",
+      "favorite",
+      "love",
+      "집",
+      "홈",
+      "하트",
+      "좋아요",
+      "사랑"
+    ],
+    "icon-heart": [
+      "heart",
+      "love",
+      "favorite",
+      "like",
+      "하트",
+      "사랑",
+      "좋아요"
+    ],
+    "icon-star": [
+      "star",
+      "favorite",
+      "rating",
+      "별",
+      "좋아요",
+      "평점"
+    ],
+    "icon-bookmark": [
+      "bookmark",
+      "save",
+      "favorite",
+      "북마크",
+      "저장",
+      "좋아요"
+    ],
+    "icon-pushpin": [
+      "pushpin",
+      "pin",
+      "attach",
+      "고정",
+      "핀",
+      "첨부"
+    ],
+    "icon-thumb-up": [
+      "thumb",
+      "up",
+      "like",
+      "good",
+      "좋아요",
+      "최고"
+    ],
+    "icon-thumb-down": [
+      "thumb",
+      "down",
+      "dislike",
+      "bad",
+      "싫어요",
+      "나쁨"
+    ],
+    "icon-eye": [
+      "eye",
+      "view",
+      "see",
+      "눈",
+      "보기"
+    ],
+    "icon-eye-slash": [
+      "eye",
+      "slash",
+      "hidden",
+      "invisible",
+      "눈",
+      "숨김",
+      "보이지않음"
+    ],
+    "icon-face-smile-circle": [
+      "face",
+      "smile",
+      "happy",
+      "emoji",
+      "얼굴",
+      "웃음",
+      "행복",
+      "이모지"
+    ],
+    "icon-face-sad-circle": [
+      "face",
+      "sad",
+      "unhappy",
+      "emoji",
+      "얼굴",
+      "슬픔",
+      "불행",
+      "이모지"
+    ],
+    "icon-face-smile-circle-folded": [
+      "face",
+      "smile",
+      "happy",
+      "folded",
+      "emoji",
+      "얼굴",
+      "웃음",
+      "행복",
+      "접힘",
+      "이모지"
+    ],
+    "icon-grid-heart": [
+      "grid",
+      "heart",
+      "favorite",
+      "layout",
+      "그리드",
+      "하트",
+      "좋아요",
+      "레이아웃"
+    ],
+    "icon-magnifyingglass": [
+      "magnifying glass",
+      "search",
+      "find",
+      "돋보기",
+      "검색",
+      "찾기"
+    ],
+    "icon-gear": [
+      "gear",
+      "setting",
+      "option",
+      "톱니바퀴",
+      "설정",
+      "옵션"
+    ],
+    "icon-slider2-horizontal": [
+      "slider",
+      "horizontal",
+      "adjust",
+      "control",
+      "슬라이더",
+      "가로",
+      "조절",
+      "제어"
+    ],
+    "icon-arrow-up-bracket-down": [
+      "arrow",
+      "up",
+      "bracket",
+      "down",
+      "upload",
+      "download",
+      "화살표",
+      "위",
+      "괄호",
+      "아래",
+      "업로드",
+      "다운로드"
+    ],
+    "icon-androidshare": [
+      "share",
+      "android",
+      "공유",
+      "안드로이드"
+    ],
+    "icon-trashcan": [
+      "trashcan",
+      "delete",
+      "remove",
+      "휴지통",
+      "삭제",
+      "제거"
+    ],
+    "icon-paperplane": [
+      "paperplane",
+      "send",
+      "message",
+      "종이비행기",
+      "보내기",
+      "메시지"
+    ],
+    "icon-hand-point-up": [
+      "hand",
+      "point",
+      "up",
+      "select",
+      "손",
+      "가리키기",
+      "위",
+      "선택"
+    ],
+    "icon-square2-stacked": [
+      "square",
+      "stack",
+      "layer",
+      "정사각형",
+      "스택",
+      "레이어"
+    ],
+    "icon-horizline-viewfinder": [
+      "horizontal line",
+      "viewfinder",
+      "camera",
+      "가로선",
+      "뷰파인더",
+      "카메라"
+    ],
+    "icon-dot3-horizontal-chatbubble-left": [
+      "chat",
+      "bubble",
+      "message",
+      "dots",
+      "more",
+      "채팅",
+      "말풍선",
+      "메시지",
+      "점",
+      "더보기"
+    ],
+    "icon-checkmark-chatbubble-left": [
+      "chat",
+      "bubble",
+      "message",
+      "check",
+      "checkmark",
+      "confirm",
+      "채팅",
+      "말풍선",
+      "메시지",
+      "확인",
+      "체크"
+    ],
+    "icon-horizline2-vertical-chatbubble-right": [
+      "chat",
+      "bubble",
+      "message",
+      "lines",
+      "text",
+      "채팅",
+      "말풍선",
+      "메시지",
+      "줄",
+      "텍스트"
+    ],
+    "icon-at": [
+      "at",
+      "email",
+      "address",
+      "골뱅이",
+      "이메일",
+      "주소"
+    ],
+    "icon-bell": [
+      "bell",
+      "notification",
+      "alert",
+      "종",
+      "알림"
+    ],
+    "icon-bell-slash": [
+      "bell",
+      "notification",
+      "alert",
+      "off",
+      "silent",
+      "종",
+      "알림",
+      "끄기",
+      "무음"
+    ],
+    "icon-phone": [
+      "phone",
+      "call",
+      "telephone",
+      "전화"
+    ],
+    "icon-phone-xmark": [
+      "phone",
+      "call",
+      "cancel",
+      "decline",
+      "전화",
+      "취소",
+      "거절"
+    ],
+    "icon-flag": [
+      "flag",
+      "mark",
+      "goal",
+      "깃발",
+      "표시",
+      "목표"
+    ],
+    "icon-lock": [
+      "lock",
+      "security",
+      "password",
+      "잠금",
+      "보안",
+      "비밀번호"
+    ],
+    "icon-lock-opened": [
+      "lock",
+      "unlock",
+      "security",
+      "password",
+      "잠금해제",
+      "보안",
+      "비밀번호"
+    ],
+    "icon-person": [
+      "person",
+      "user",
+      "profile",
+      "사람",
+      "사용자",
+      "프로필"
+    ],
+    "icon-person2": [
+      "people",
+      "users",
+      "group",
+      "사람들",
+      "그룹"
+    ],
+    "icon-person-circle": [
+      "person",
+      "user",
+      "profile",
+      "circle",
+      "사람",
+      "사용자",
+      "프로필",
+      "원"
+    ],
+    "icon-person-plus": [
+      "person",
+      "user",
+      "add",
+      "plus",
+      "사람",
+      "사용자",
+      "추가"
+    ],
+    "icon-checkmark-badge": [
+      "check",
+      "checkmark",
+      "badge",
+      "complete",
+      "확인",
+      "뱃지",
+      "완료"
+    ],
+    "icon-sun": [
+      "sun",
+      "day",
+      "bright",
+      "태양",
+      "낮",
+      "밝음"
+    ],
+    "icon-moon": [
+      "moon",
+      "night",
+      "dark",
+      "달",
+      "밤",
+      "어두움"
+    ],
+    "icon-plus": [
+      "plus",
+      "add",
+      "create",
+      "더하기",
+      "추가",
+      "생성"
+    ],
+    "icon-minus": [
+      "minus",
+      "subtract",
+      "remove",
+      "빼기",
+      "제거"
+    ],
+    "icon-xmark": [
+      "x",
+      "close",
+      "delete",
+      "cancel",
+      "닫기",
+      "삭제",
+      "취소"
+    ],
+    "icon-checkmark-bold": [
+      "check",
+      "checkmark",
+      "tick",
+      "confirm",
+      "확인",
+      "체크"
+    ],
+    "icon-xmark-circle": [
+      "x",
+      "close",
+      "delete",
+      "cancel",
+      "circle",
+      "닫기",
+      "삭제",
+      "취소",
+      "원"
+    ],
+    "icon-plus-circle": [
+      "plus",
+      "add",
+      "create",
+      "circle",
+      "더하기",
+      "추가",
+      "생성",
+      "원"
+    ],
+    "icon-minus-circle": [
+      "minus",
+      "subtract",
+      "remove",
+      "circle",
+      "빼기",
+      "제거",
+      "원"
+    ],
+    "icon-plus-square": [
+      "plus",
+      "add",
+      "create",
+      "square",
+      "더하기",
+      "추가",
+      "생성",
+      "정사각형"
+    ],
+    "icon-slash-circle": [
+      "slash",
+      "cancel",
+      "remove",
+      "circle",
+      "취소",
+      "제거",
+      "원"
+    ],
+    "icon-i-lowercase-serif-circle": [
+      "information",
+      "info",
+      "circle",
+      "정보",
+      "원"
+    ],
+    "icon-exclamationmark-circle": [
+      "exclamation mark",
+      "warning",
+      "alert",
+      "circle",
+      "느낌표",
+      "경고",
+      "알림",
+      "원"
+    ],
+    "icon-questionmark-circle": [
+      "question mark",
+      "help",
+      "information",
+      "circle",
+      "물음표",
+      "도움말",
+      "정보",
+      "원"
+    ],
+    "icon-questionmark-sqaure": [
+      "question mark",
+      "help",
+      "information",
+      "square",
+      "물음표",
+      "도움말",
+      "정보",
+      "정사각형"
+    ],
+    "icon-checkmark-bold-flower": [
+      "check",
+      "checkmark",
+      "tick",
+      "confirm",
+      "flower",
+      "확인",
+      "체크",
+      "꽃"
+    ],
+    "icon-figure-walk": [
+      "figure",
+      "walk",
+      "person",
+      "move",
+      "사람",
+      "걷기",
+      "이동"
+    ],
+    "icon-figure-run": [
+      "figure",
+      "run",
+      "person",
+      "move",
+      "사람",
+      "달리기",
+      "이동"
+    ],
+    "icon-figure-wheelchair": [
+      "figure",
+      "wheelchair",
+      "accessibility",
+      "장애인",
+      "휠체어",
+      "접근성"
+    ],
+    "icon-figure-oval": [
+      "figure",
+      "oval",
+      "person",
+      "user",
+      "사람",
+      "사용자"
+    ],
+    "icon-hand-wave": [
+      "hand",
+      "wave",
+      "hello",
+      "goodbye",
+      "손",
+      "흔들기",
+      "안녕",
+      "잘가"
+    ],
+    "icon-flask": [
+      "flask",
+      "science",
+      "chemistry",
+      "experiment",
+      "플라스크",
+      "과학",
+      "화학",
+      "실험"
+    ],
+    "icon-lightbulb-dot5": [
+      "lightbulb",
+      "idea",
+      "solution",
+      "전구",
+      "아이디어",
+      "해결책"
+    ],
+    "icon-flag-hill": [
+      "flag",
+      "goal",
+      "achievement",
+      "깃발",
+      "목표",
+      "달성"
+    ],
+    "icon-trophy": [
+      "trophy",
+      "award",
+      "winner",
+      "prize",
+      "트로피",
+      "상",
+      "수상",
+      "상품"
+    ],
+    "icon-laptop": [
+      "laptop",
+      "computer",
+      "device",
+      "노트북",
+      "컴퓨터",
+      "기기"
+    ],
+    "icon-mobile": [
+      "mobile",
+      "phone",
+      "smartphone",
+      "device",
+      "모바일",
+      "휴대폰",
+      "스마트폰",
+      "기기"
+    ],
+    "icon-arrow-right-angled": [
+      "arrow",
+      "right",
+      "angle",
+      "turn",
+      "화살표",
+      "오른쪽",
+      "각도",
+      "회전"
+    ],
+    "icon-arrow-clockwise-oval": [
+      "arrow",
+      "clockwise",
+      "rotate",
+      "loop",
+      "repeat",
+      "화살표",
+      "시계방향",
+      "회전",
+      "반복"
+    ],
+    "icon-speedometer": [
+      "speedometer",
+      "speed",
+      "gauge",
+      "속도계",
+      "속도"
+    ],
+    "icon-speedometer-1x": [
+      "speedometer",
+      "speed",
+      "1x",
+      "normal",
+      "속도계",
+      "속도",
+      "보통"
+    ],
+    "icon-speedometer-2x": [
+      "speedometer",
+      "speed",
+      "2x",
+      "double",
+      "fast",
+      "속도계",
+      "속도",
+      "두배",
+      "빠름"
+    ],
+    "icon-speedometer-3x": [
+      "speedometer",
+      "speed",
+      "3x",
+      "triple",
+      "fastest",
+      "속도계",
+      "속도",
+      "세배",
+      "가장빠름"
+    ],
+    "icon-roadlane": [
+      "road",
+      "lane",
+      "highway",
+      "street",
+      "도로",
+      "차선",
+      "고속도로"
+    ],
+    "icon-epb": [
+      "electronic parking brake",
+      "parking brake",
+      "brake",
+      "전자식 주차 브레이크",
+      "주차 브레이크",
+      "브레이크"
+    ],
+    "icon-car-rear-trunk-open-leftside": [
+      "car",
+      "rear",
+      "trunk",
+      "open",
+      "left",
+      "자동차",
+      "뒤",
+      "트렁크",
+      "열림",
+      "왼쪽"
+    ],
+    "icon-smartkey": [
+      "smart key",
+      "key",
+      "car",
+      "keyless",
+      "스마트키",
+      "키",
+      "자동차",
+      "키리스"
+    ],
+    "icon-steeringwheel-heatwave2": [
+      "steering wheel",
+      "heat",
+      "warm",
+      "핸들",
+      "열선"
+    ],
+    "icon-car-front-upside-wave2-reversed-up": [
+      "car",
+      "front",
+      "up",
+      "wave",
+      "자동차",
+      "앞",
+      "위",
+      "물결"
+    ],
+    "icon-car-rear-upside-wave2-reversed-down-left": [
+      "car",
+      "rear",
+      "down",
+      "wave",
+      "left",
+      "자동차",
+      "뒤",
+      "아래",
+      "물결",
+      "왼쪽"
+    ],
+    "icon-car-rear-upside-sector-down": [
+      "car",
+      "rear",
+      "down",
+      "sector",
+      "자동차",
+      "뒤",
+      "아래",
+      "부채꼴"
+    ],
+    "icon-car-rear-upside-wave2-reversed-down": [
+      "car",
+      "rear",
+      "down",
+      "wave",
+      "자동차",
+      "뒤",
+      "아래",
+      "물결"
+    ],
+    "icon-seat-left": [
+      "seat",
+      "left",
+      "chair",
+      "좌석",
+      "왼쪽",
+      "의자"
+    ],
+    "icon-seat-left-fan": [
+      "seat",
+      "left",
+      "fan",
+      "ventilation",
+      "좌석",
+      "왼쪽",
+      "팬",
+      "통풍"
+    ],
+    "icon-seat-left-heatwave2": [
+      "seat",
+      "left",
+      "heat",
+      "heating",
+      "좌석",
+      "왼쪽",
+      "열선"
+    ],
+    "icon-horizline3-vertical": [
+      "list",
+      "menu",
+      "options",
+      "목록",
+      "메뉴",
+      "옵션"
+    ],
+    "icon-horizline3-vertical-checkmark": [
+      "list",
+      "menu",
+      "options",
+      "check",
+      "checkmark",
+      "complete",
+      "목록",
+      "메뉴",
+      "옵션",
+      "확인",
+      "완료"
+    ],
+    "icon-checkmarkhorizline2-vertical": [
+      "list",
+      "menu",
+      "options",
+      "check",
+      "checkmark",
+      "complete",
+      "목록",
+      "메뉴",
+      "옵션",
+      "확인",
+      "완료"
+    ],
+    "icon-dothorizline3-vertical": [
+      "list",
+      "menu",
+      "options",
+      "dots",
+      "bullets",
+      "목록",
+      "메뉴",
+      "옵션",
+      "점"
+    ],
+    "icon-horizline3-vertical-star": [
+      "list",
+      "menu",
+      "options",
+      "star",
+      "favorite",
+      "important",
+      "목록",
+      "메뉴",
+      "옵션",
+      "별",
+      "즐겨찾기",
+      "중요"
+    ],
+    "icon-squareline2-vertical": [
+      "squares",
+      "vertical",
+      "layout",
+      "정사각형",
+      "세로",
+      "레이아웃"
+    ],
+    "icon-horizrectangle-horizline2-vertical": [
+      "rectangle",
+      "horizontal",
+      "lines",
+      "vertical",
+      "layout",
+      "직사각형",
+      "가로",
+      "선",
+      "세로",
+      "레이아웃"
+    ],
+    "icon-check-ballotbox": [
+      "check",
+      "checkmark",
+      "ballot box",
+      "vote",
+      "election",
+      "확인",
+      "투표함",
+      "투표",
+      "선거"
+    ],
+    "icon-malesymbol-femalesymbol": [
+      "male",
+      "female",
+      "gender",
+      "남성",
+      "여성",
+      "성별"
+    ],
+    "icon-toolbox": [
+      "toolbox",
+      "tools",
+      "repair",
+      "toolkit",
+      "도구상자",
+      "도구",
+      "수리"
+    ],
+    "icon-flame": [
+      "flame",
+      "fire",
+      "hot",
+      "불꽃",
+      "불",
+      "뜨거움"
+    ],
+    "icon-q-uppercase-chatbubble-right": [
+      "question",
+      "chat",
+      "bubble",
+      "message",
+      "질문",
+      "채팅",
+      "말풍선",
+      "메시지"
+    ],
+    "icon-leaf": [
+      "leaf",
+      "nature",
+      "plant",
+      "잎",
+      "자연",
+      "식물"
+    ],
+    "icon-crown": [
+      "crown",
+      "king",
+      "queen",
+      "royal",
+      "왕관",
+      "왕",
+      "여왕"
+    ],
+    "icon-sparkle2": [
+      "sparkle",
+      "shine",
+      "glitter",
+      "반짝임",
+      "빛남"
+    ],
+    "icon-shoppingbag": [
+      "shopping bag",
+      "shopping",
+      "bag",
+      "쇼핑백",
+      "쇼핑"
+    ],
+    "icon-shoppingbag2-stacked": [
+      "shopping bags",
+      "shopping",
+      "bags",
+      "stack",
+      "쇼핑백",
+      "쇼핑",
+      "스택"
+    ],
+    "icon-tag": [
+      "tag",
+      "label",
+      "태그",
+      "라벨"
+    ],
+    "icon-cart": [
+      "cart",
+      "shopping cart",
+      "shopping",
+      "카트",
+      "장바구니",
+      "쇼핑"
+    ],
+    "icon-receipt": [
+      "receipt",
+      "bill",
+      "invoice",
+      "영수증",
+      "청구서"
+    ],
+    "icon-card": [
+      "card",
+      "credit card",
+      "payment",
+      "카드",
+      "신용카드",
+      "결제"
+    ],
+    "icon-won-arrow-clockwise-circular": [
+      "won",
+      "currency",
+      "money",
+      "exchange",
+      "rotate",
+      "원",
+      "통화",
+      "돈",
+      "환전",
+      "회전"
+    ],
+    "icon-won-circle-arrow-right": [
+      "won",
+      "currency",
+      "money",
+      "send",
+      "transfer",
+      "원",
+      "통화",
+      "돈",
+      "송금",
+      "이체"
+    ],
+    "icon-won": [
+      "won",
+      "currency",
+      "money",
+      "korean won",
+      "원",
+      "통화",
+      "돈",
+      "한국 원"
+    ],
+    "icon-won-circle": [
+      "won",
+      "currency",
+      "money",
+      "korean won",
+      "circle",
+      "원",
+      "통화",
+      "돈",
+      "한국 원",
+      "원"
+    ],
+    "icon-check-shield": [
+      "check",
+      "checkmark",
+      "shield",
+      "security",
+      "safe",
+      "확인",
+      "방패",
+      "보안",
+      "안전"
+    ],
+    "icon-person-shield": [
+      "person",
+      "user",
+      "shield",
+      "security",
+      "protection",
+      "사람",
+      "사용자",
+      "방패",
+      "보안",
+      "보호"
+    ],
+    "icon-won-shield": [
+      "won",
+      "currency",
+      "money",
+      "shield",
+      "security",
+      "protection",
+      "원",
+      "통화",
+      "돈",
+      "방패",
+      "보안",
+      "보호"
+    ],
+    "icon-store": [
+      "store",
+      "shop",
+      "building",
+      "가게",
+      "상점",
+      "건물"
+    ],
+    "icon-store-pen": [
+      "store",
+      "shop",
+      "edit",
+      "modify",
+      "가게",
+      "상점",
+      "편집",
+      "수정"
+    ],
+    "icon-store-check": [
+      "store",
+      "shop",
+      "check",
+      "checkmark",
+      "confirm",
+      "가게",
+      "상점",
+      "확인",
+      "체크"
+    ],
+    "icon-clock": [
+      "clock",
+      "time",
+      "hour",
+      "시계",
+      "시간"
+    ],
+    "icon-calendar": [
+      "calendar",
+      "date",
+      "schedule",
+      "달력",
+      "날짜",
+      "일정"
+    ],
+    "icon-check-calendar": [
+      "calendar",
+      "date",
+      "schedule",
+      "check",
+      "checkmark",
+      "confirm",
+      "달력",
+      "날짜",
+      "일정",
+      "확인",
+      "체크"
+    ],
+    "icon-megaphone": [
+      "megaphone",
+      "announcement",
+      "promotion",
+      "broadcast",
+      "확성기",
+      "알림",
+      "홍보",
+      "방송"
+    ],
+    "icon-signboard": [
+      "signboard",
+      "sign",
+      "information",
+      "notice",
+      "간판",
+      "표지판",
+      "정보",
+      "알림"
+    ],
+    "icon-coupon": [
+      "coupon",
+      "discount",
+      "voucher",
+      "쿠폰",
+      "할인권"
+    ],
+    "icon-check-coupon": [
+      "coupon",
+      "discount",
+      "voucher",
+      "check",
+      "checkmark",
+      "confirm",
+      "쿠폰",
+      "할인권",
+      "확인",
+      "체크"
+    ],
+    "icon-gift": [
+      "gift",
+      "present",
+      "surprise",
+      "선물"
+    ],
+    "icon-percent-flower": [
+      "percent",
+      "discount",
+      "sale",
+      "flower",
+      "퍼센트",
+      "할인",
+      "세일",
+      "꽃"
+    ],
+    "icon-headset": [
+      "headset",
+      "headphone",
+      "support",
+      "customer service",
+      "헤드셋",
+      "헤드폰",
+      "지원",
+      "고객 서비스"
+    ],
+    "icon-check-clipboard": [
+      "check",
+      "checkmark",
+      "clipboard",
+      "complete",
+      "done",
+      "확인",
+      "클립보드",
+      "완료"
+    ],
+    "icon-building2": [
+      "building",
+      "office",
+      "company",
+      "건물",
+      "사무실",
+      "회사"
+    ],
+    "icon-person-leaf": [
+      "person",
+      "user",
+      "eco",
+      "environment",
+      "사람",
+      "사용자",
+      "친환경",
+      "환경"
+    ],
+    "icon-book": [
+      "book",
+      "read",
+      "learn",
+      "책",
+      "읽기",
+      "학습"
+    ],
+    "icon-book-open": [
+      "book",
+      "open",
+      "read",
+      "learn",
+      "책",
+      "열림",
+      "읽기",
+      "학습"
+    ],
+    "icon-envelope": [
+      "envelope",
+      "email",
+      "message",
+      "mail",
+      "봉투",
+      "이메일",
+      "메시지",
+      "편지"
+    ],
+    "icon-article": [
+      "article",
+      "news",
+      "blog",
+      "content",
+      "기사",
+      "뉴스",
+      "블로그",
+      "콘텐츠"
+    ],
+    "icon-document": [
+      "document",
+      "file",
+      "paper",
+      "문서",
+      "파일"
+    ],
+    "icon-document-plus": [
+      "document",
+      "file",
+      "add",
+      "create",
+      "문서",
+      "파일",
+      "추가",
+      "생성"
+    ],
+    "icon-document-pen": [
+      "document",
+      "file",
+      "edit",
+      "modify",
+      "문서",
+      "파일",
+      "편집",
+      "수정"
+    ],
+    "icon-document-arrow-left": [
+      "document",
+      "file",
+      "back",
+      "previous",
+      "문서",
+      "파일",
+      "뒤로",
+      "이전"
+    ],
+    "icon-document-magnifyingglass": [
+      "document",
+      "file",
+      "search",
+      "find",
+      "문서",
+      "파일",
+      "검색",
+      "찾기"
+    ],
+    "icon-barchart-square": [
+      "bar chart",
+      "chart",
+      "graph",
+      "data",
+      "statistics",
+      "막대 그래프",
+      "차트",
+      "데이터",
+      "통계"
+    ],
+    "icon-barchart-board": [
+      "bar chart",
+      "chart",
+      "graph",
+      "data",
+      "presentation",
+      "막대 그래프",
+      "차트",
+      "데이터",
+      "발표"
+    ],
+    "icon-category-fork-spoon": [
+      "food",
+      "restaurant",
+      "dining",
+      "cutlery",
+      "음식",
+      "레스토랑",
+      "식사",
+      "식기"
+    ],
+    "icon-category-cup-heatwave": [
+      "drink",
+      "beverage",
+      "hot",
+      "coffee",
+      "tea",
+      "음료",
+      "뜨거운",
+      "커피",
+      "차"
+    ],
+    "icon-category-truck": [
+      "delivery",
+      "shipping",
+      "transport",
+      "truck",
+      "배달",
+      "배송",
+      "운송",
+      "트럭"
+    ],
+    "icon-category-graduationcap": [
+      "education",
+      "school",
+      "university",
+      "graduation",
+      "교육",
+      "학교",
+      "대학교",
+      "졸업"
+    ],
+    "icon-category-dumbbell": [
+      "fitness",
+      "gym",
+      "workout",
+      "exercise",
+      "피트니스",
+      "헬스장",
+      "운동"
+    ],
+    "icon-category-scissors": [
+      "scissors",
+      "cut",
+      "tool",
+      "가위",
+      "자르기",
+      "도구"
+    ],
+    "icon-category-nailpolish": [
+      "beauty",
+      "cosmetics",
+      "nail polish",
+      "makeup",
+      "뷰티",
+      "화장품",
+      "매니큐어",
+      "메이크업"
+    ],
+    "icon-category-paintroller": [
+      "paint",
+      "roller",
+      "tool",
+      "home improvement",
+      "페인트",
+      "롤러",
+      "도구",
+      "집수리"
+    ],
+    "icon-category-wrench": [
+      "tool",
+      "repair",
+      "maintenance",
+      "fix",
+      "도구",
+      "수리",
+      "유지보수"
+    ],
+    "icon-category-palette": [
+      "art",
+      "design",
+      "color",
+      "palette",
+      "예술",
+      "디자인",
+      "색상",
+      "팔레트"
+    ],
+    "icon-category-spraybottle-sponge": [
+      "cleaning",
+      "housekeeping",
+      "clean",
+      "tool",
+      "청소",
+      "도구"
+    ],
+    "icon-category-shoppingbag-items": [
+      "shopping",
+      "retail",
+      "products",
+      "goods",
+      "쇼핑",
+      "소매",
+      "제품",
+      "상품"
+    ],
+    "icon-category-window4-house": [
+      "real estate",
+      "property",
+      "home",
+      "house",
+      "부동산",
+      "주택",
+      "집"
+    ],
+    "icon-category-car-frontside": [
+      "car",
+      "vehicle",
+      "automobile",
+      "transportation",
+      "자동차",
+      "탈것",
+      "운송"
+    ],
+    "icon-category-magnifyingglass": [
+      "search",
+      "find",
+      "explore",
+      "discover",
+      "검색",
+      "찾기",
+      "탐색",
+      "발견"
+    ],
+    "icon-category-person2-openarms": [
+      "community",
+      "people",
+      "group",
+      "welcome",
+      "커뮤니티",
+      "사람들",
+      "그룹",
+      "환영"
+    ],
+    "icon-category-fork-spoon-bag": [
+      "food delivery",
+      "takeaway",
+      "restaurant",
+      "food",
+      "음식 배달",
+      "테이크 아웃",
+      "레스토랑",
+      "음식"
+    ],
+    "icon-category-linechart-up-xaxis": [
+      "growth",
+      "increase",
+      "trend",
+      "chart",
+      "graph",
+      "성장",
+      "증가",
+      "추세",
+      "차트",
+      "그래프"
+    ],
+    "icon-category-triangle-right-chatbubble-left": [
+      "video",
+      "media",
+      "play",
+      "chat",
+      "message",
+      "비디오",
+      "미디어",
+      "재생",
+      "채팅",
+      "메시지"
+    ],
+    "icon-category-window2-store": [
+      "store",
+      "shop",
+      "retail",
+      "building",
+      "가게",
+      "상점",
+      "소매",
+      "건물"
+    ]
+  }
+}
